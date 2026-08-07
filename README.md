@@ -73,6 +73,10 @@ The repo-scoped skill is located at:
 
 `.agents/skills/fit-focused-job-search/SKILL.md`
 
+If you want the simplest user guide first, start here:
+
+- [START_HERE.md](START_HERE.md)
+
 ### Direct repository use
 
 1. Extract this package or clone the GitHub repository.
@@ -86,6 +90,20 @@ Codex can also detect the repo-scoped skill automatically when a request matches
 ### Personal installation
 
 Ask the skill installer to install `fit-focused-job-search` from this repository when you want it available outside this project.
+
+## Quick trust guide
+
+People evaluating this repository usually want to know three things quickly:
+
+1. how to start;
+2. what files are in the package;
+3. whether the system respects privacy and approval boundaries.
+
+Use these docs in this order:
+
+- [START_HERE.md](START_HERE.md) for setup, first prompts, and folder overview;
+- [PRIVACY.md](PRIVACY.md) for data and permission boundaries;
+- [E2E_EMAIL_TEST.md](E2E_EMAIL_TEST.md) for a narrow, fictional end-to-end test.
 
 ## Example requests
 
@@ -153,6 +171,7 @@ tests/
 ## Documentation
 
 - [Skill instructions](.agents/skills/fit-focused-job-search/SKILL.md)
+- [Start here guide](START_HERE.md)
 - [Privacy and data boundaries](PRIVACY.md)
 - [Contribution guidance](CONTRIBUTING.md)
 - [Testing results](tests/TEST_RESULTS.md)
