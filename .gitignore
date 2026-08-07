@@ -1,0 +1,30 @@
+# Personal career data
+resumes/
+applications/
+contacts/
+private/
+personal-data/
+*.doc
+*.docx
+*.pdf
+
+# Credentials and configuration
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+user-config.*
+
+# Local and generated files
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+*.zip
+
