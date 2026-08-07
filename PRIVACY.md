@@ -11,6 +11,7 @@ The public repository may contain:
 - sanitized examples;
 - evaluation rubrics;
 - generic templates.
+- generic folder structures such as `daily-checkins/` or `meeting-recordings/`.
 
 It must not contain:
 
@@ -20,7 +21,29 @@ It must not contain:
 - health information;
 - credentials, tokens, or account identifiers;
 - private folder links;
+- private Drive folder IDs or URLs;
+- private recording links or transcript links;
 - personal automation configuration.
+
+## Public skill vs. private user setup
+
+The published repository should describe how a user can set up their own private workflow without exposing that workflow publicly.
+
+That means:
+
+- publish the schema, not the real location;
+- publish the permission rule, not the private account identifier;
+- publish fictional examples, not personal operating data.
+
+For example, it is appropriate to document folders like:
+
+- `daily-checkins/`
+- `job-materials/`
+- `network-notes/`
+- `meeting-recordings/`
+- `meeting-notes/`
+
+It is not appropriate to publish the actual Drive path, link, folder ID, or account-specific setup for any real user.
 
 ## User-controlled resource ladder
 

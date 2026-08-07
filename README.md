@@ -105,6 +105,26 @@ Use these docs in this order:
 - [PRIVACY.md](PRIVACY.md) for data and permission boundaries;
 - [E2E_EMAIL_TEST.md](E2E_EMAIL_TEST.md) for a narrow, fictional end-to-end test.
 
+## Public package and private data
+
+This repository is for the reusable skill package, not for any one user's private setup.
+
+The public repo should contain:
+
+- the skill logic;
+- generic folder examples;
+- privacy rules;
+- fictional tests and examples.
+
+It should not contain:
+
+- real Drive links or folder IDs;
+- real Gmail labels or private queries;
+- real recording links or transcripts;
+- personal routine history or account-specific configuration.
+
+Users should connect their own private folders, email threads, and notes separately.
+
 ## Example requests
 
 - “My alerts keep showing management jobs that do not fit me. Help me recalibrate my search.”

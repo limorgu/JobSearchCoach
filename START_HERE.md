@@ -95,6 +95,33 @@ The repository supports narrow, explicit sources such as:
 
 Reading a source does not imply permission to send, edit, organize, or automate.
 
+## Public repo vs. private setup
+
+Keep these separate.
+
+The public GitHub repository should contain only:
+
+- reusable skill instructions;
+- generic folder examples;
+- privacy and permission rules;
+- fictional tests and sample prompts.
+
+Your private personal setup should contain:
+
+- your real Drive folders;
+- your real Gmail labels or threads;
+- your real recordings or transcripts;
+- your real networking notes;
+- your real daily routine history.
+
+Do not publish:
+
+- Drive folder links or IDs;
+- recording links;
+- private email queries;
+- personal calendar details;
+- any path or identifier tied to a real user's account.
+
 ## Folder overview
 
 This repository is intentionally small and readable.
@@ -173,3 +200,5 @@ That gives them:
 - what it does;
 - how to start;
 - why it is safe to inspect and try.
+
+If they want to use their own data, they should create their own private folders and connectors separately from this repository.
