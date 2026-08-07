@@ -35,6 +35,12 @@ For Gmail and Drive specifically:
 - permission to monitor progress does not imply permission to send, edit, or organize;
 - permission to draft a follow-up does not imply permission to send it.
 
+For LinkedIn or other network sources:
+
+- permission to read a profile or connection export does not imply permission to message anyone;
+- recommendation of a contact does not imply approval to request a referral;
+- the coach must verify relationship context before suggesting outreach.
+
 ## External actions
 
 - Draft outreach unless the user explicitly requests sending.

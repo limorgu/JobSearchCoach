@@ -31,6 +31,21 @@ If the user wants continuity across days, preferred approved sources are:
 
 Use the narrowest source that can answer the question.
 
+## LinkedIn and professional-network sources
+
+If the user wants contact recommendations, acceptable narrow sources include:
+
+- a LinkedIn profile URL the user explicitly provides;
+- an exported connections file the user explicitly approves;
+- a pasted list of relevant contacts;
+- a manual note describing target companies and known connections.
+
+Before using a network source, state:
+
+- what specific source will be read;
+- whether it is being used for connection discovery, relationship ranking, or message drafting;
+- that reading it does not imply sending outreach.
+
 ## Resume library model
 
 Recommend two user-controlled collections:
@@ -71,8 +86,18 @@ Preserve employers, titles, dates, tools, metrics, responsibility, and outcomes.
 3. Verify full name, current or known role, relationship context, and evidence source.
 4. Rank direct team connection, trusted company colleague, relevant recruiter, then credible weak tie.
 5. Match the request to relationship strength.
+6. Prefer the next best contact for the current goal, not the highest-status contact overall.
 
 Do not recommend an immediate referral request to a new or weak connection by default. Do not invent email addresses or merge people with similar names.
+
+## Daily contact recommendation output
+
+When the user wants daily or weekly networking guidance, return a short ranked list:
+
+1. top one to three people to contact now;
+2. why each is timely;
+3. what kind of ask is appropriate;
+4. whether the coach should draft a message next.
 
 ## Output for each suggested person
 

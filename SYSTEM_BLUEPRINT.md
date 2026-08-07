@@ -10,6 +10,7 @@ Build a continuous AI coach that helps a user run a job search the way a strong 
 - adapt the daily plan to available time and energy;
 - focus practice on the highest-impact gap;
 - learn from prior submissions, interviews, and completions;
+- learn from approved networking assets such as LinkedIn profile or network exports;
 - keep the routine sustainable.
 
 ## Core modules
@@ -97,7 +98,30 @@ The tracker should infer only approved signals:
 - completed practice;
 - unfinished task carried forward.
 
-### 6. Friday science brief
+### 6. Network recommender
+
+Use approved LinkedIn or other professional-network sources to recommend who to contact next.
+
+Inputs may include:
+
+- LinkedIn profile URL or exported profile summary;
+- LinkedIn connections export or approved screenshot/text summary;
+- prior outreach log;
+- target company list;
+- role-family priorities.
+
+For each recommended contact, produce:
+
+- verified name;
+- current company and role if known;
+- relationship strength or path;
+- why this person matters now;
+- suggested route: insight, intro, recruiter contact, informational chat, or referral;
+- a short message draft if the user asks for one.
+
+Never send outreach automatically.
+
+### 7. Friday science brief
 
 Every Friday, produce one short brief from an approved reading list or approved source set.
 
@@ -129,6 +153,7 @@ Output shape:
 - available time windows
 - optional routine anchors
 - approved connectors
+- approved networking sources
 
 ### Opportunity record
 
@@ -152,6 +177,8 @@ Output shape:
 - interviews scheduled
 - practiced competency
 - freeform user notes
+- outreach targets suggested
+- outreach attempted
 
 ## Customer-centered product rule
 

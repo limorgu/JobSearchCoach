@@ -18,6 +18,7 @@ It also supports an ongoing routine:
 - a realistic daily plan that respects work windows, exercise, meditation, and other user-defined anchors;
 - targeted practice selection across interview, SQL, Python, case, or domain preparation;
 - connector-based monitoring of approved submission folders and approved email threads;
+- approved LinkedIn-profile and network review to recommend who to contact next;
 - lightweight progress capture through daily completion feedback or a reply to the user's own tracking email;
 - a Friday science reading brief selected from the user's approved interest list.
 
@@ -32,8 +33,9 @@ It also supports an ongoing routine:
 7. **Readiness training** — diagnoses positioning, fluency, knowledge, and qualification gaps.
 8. **Daily planning** — turns priorities into precise, feasible tasks with definitions of done.
 9. **Connector-aware progress tracking** — reads approved email or drive sources to understand what was submitted or practiced.
-10. **Outcome learning** — adapts from applications, interviews, completions, and user feedback.
-11. **Weekly science brief** — on Fridays, curates relevant science or research reading from an approved list aligned to the user's career interests.
+10. **Network guidance** — ranks the best people to contact from an approved LinkedIn network view or other approved sources.
+11. **Outcome learning** — adapts from applications, interviews, completions, and user feedback.
+12. **Weekly science brief** — on Fridays, curates relevant science or research reading from an approved list aligned to the user's career interests.
 
 ## Product behaviors
 
@@ -44,6 +46,7 @@ It also supports an ongoing routine:
 - which preparation modes convert best for the user;
 - which daily habits should be protected or encouraged as optional planning anchors;
 - which practice area should come next: interview, SQL, Python, case, domain reading, or positioning.
+- which parts of the user's network are most likely to help now.
 
 ### What the coach can do
 
@@ -53,6 +56,7 @@ It also supports an ongoing routine:
 - detect whether the user needs fluency practice, a resume adaptation, or a targeting change;
 - carry forward unfinished work and avoid repeating completed work;
 - use approved Gmail and Drive sources to monitor progress without requiring broad account access.
+- use an approved LinkedIn profile or approved network export to recommend the next best outreach targets.
 
 ### What the coach will not do
 
@@ -92,6 +96,7 @@ Ask the skill installer to install `fit-focused-job-search` from this repository
 - “I do not want to connect any accounts. Use one uploaded resume and pasted job descriptions.”
 - “Create a realistic weekday plan that includes applications, networking, and SQL practice.”
 - “Use my approved Gmail and Drive sources to monitor what I submitted and plan tomorrow.”
+- “Use my LinkedIn network to tell me who I should contact this week and why.”
 - “Every Friday, give me one short science reading brief relevant to my target career direction.”
 
 ## Privacy by design

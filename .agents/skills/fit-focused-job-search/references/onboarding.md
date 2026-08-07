@@ -45,6 +45,7 @@ Ask for evidence rather than forcing conventional job categories.
 - Is there a folder of historical submissions?
 - Can the user identify submissions that produced interviews?
 - Does the user prefer uploads or a connected cloud folder?
+- Does the user want to use an approved LinkedIn profile, connection export, or network note for outreach recommendations?
 
 Do not request an entire drive when one folder is sufficient.
 
@@ -91,6 +92,7 @@ End with:
 6. available time;
 7. approved resources and actions;
 8. routine anchors and preferred cadence;
-9. whether Friday reading and daily progress monitoring are enabled.
+9. whether Friday reading and daily progress monitoring are enabled;
+10. whether network recommendations are enabled and from which approved source.
 
 Ask the user to approve or correct this summary. Keep unconfirmed assumptions in a separate **to confirm** row; do not mix them with approved constraints.

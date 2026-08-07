@@ -1,6 +1,6 @@
 ---
 name: fit-focused-job-search
-description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, identify appropriate networking paths, practice interview or technical skills, create sustainable daily or weekly plans, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or maintain an ongoing daily routine that adapts to market fit, schedule, and prior progress. Also use to reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, identify appropriate networking paths, use an approved LinkedIn profile or network source for contact recommendations, practice interview or technical skills, create sustainable daily or weekly plans, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or maintain an ongoing daily routine that adapts to market fit, schedule, and prior progress. Also use to reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search
@@ -42,6 +42,7 @@ Ask only the next small group of questions needed. Do not deliver a long intake 
 - demonstrated strengths and applications that generated interest;
 - hard qualification exclusions;
 - available resume or application sources;
+- available networking sources such as LinkedIn profile or approved connection exports;
 - interview and technical-readiness needs;
 - realistic time and optional sustainable-work preferences.
 - whether the user wants connector-assisted monitoring, daily check-ins, or weekly science reading.
@@ -92,6 +93,7 @@ For each strong match, provide:
 - closest resume source;
 - three to five small, truthful adaptations;
 - one appropriate networking route;
+- one appropriate contact path from approved networking sources when available;
 - the most relevant readiness exercise, if any.
 - whether this role should change tomorrow's plan or keep the current routine.
 
@@ -129,6 +131,7 @@ When tools are available:
 
 - Read only user-approved sources relevant to the task.
 - For Gmail or Drive monitoring, explain exactly which folder, thread, or query will be read and what progress signal will be extracted.
+- For LinkedIn or other professional-network sources, explain exactly which profile, export, or source will be read and what recommendation it enables.
 - Resolve recipients before recommending or sending outreach.
 - Draft by default; send only when explicitly authorized.
 - Never alter existing calendar events. Create new blocks only with explicit approval.

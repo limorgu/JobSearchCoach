@@ -19,6 +19,7 @@ The workflow should verify that the coach can:
 - recognize a fake job alert and a fake application event;
 - incorporate an end-of-day self-check-in;
 - choose the next best practice area;
+- recommend who to contact next from an approved professional-network source;
 - produce a realistic next-day plan;
 - preserve privacy boundaries.
 
@@ -40,6 +41,14 @@ Use the smallest useful scope:
   - one sample resume
   - one sample submission log
   - one sample target-jobs note
+
+### LinkedIn or network source
+
+Use one narrow approved source:
+
+- either a pasted fictional connection list,
+- or one uploaded fictional connections export,
+- or one text note with known contacts at target companies.
 
 ### Calendar
 
@@ -75,10 +84,21 @@ Use one deliberately mixed profile so the coach must generalize beyond a single 
   - behavioral storytelling under pressure
 - weekly preference:
   - one Friday science or research reading
+- network preference:
+  - recommend only one to three high-value contacts at a time
 
 ## Test emails
 
 Send these as four separate self-emails. Label them all `JobSearchCoach-Test`.
+
+Add one fictional network note in Drive or as pasted text:
+
+```text
+Network note:
+- Maya Chen, Senior Program Manager at ExampleAI, former coworker, knows my cross-functional work
+- Alex Rivera, Product Analytics Manager at MetricsCo, weak tie through alumni network
+- Sam Patel, Recruiter at ExampleAI, no direct relationship
+```
 
 ### 1. Onboarding email
 
@@ -176,6 +196,18 @@ After reading only the approved test label or approved test thread, the coach sh
 - keep backend-heavy engineering out of the recommendation set
 - explain the fit using evidence, not title similarity alone
 
+### Network recommendation
+
+The coach should recommend one to three contacts in priority order.
+
+For this test case, a strong answer is:
+
+1. Maya Chen first, because she is both relevant and a stronger relationship path;
+2. Sam Patel second for recruiter context only if the user wants a recruiter path;
+3. Alex Rivera as a weaker but still relevant informational route.
+
+The coach should not jump straight to “ask for a referral” from the weakest tie by default.
+
 ### Practice selection
 
 The coach should choose the next practice area for a clear reason.
@@ -222,8 +254,9 @@ The workflow passes if all of the following are true:
 3. The coach updates the next-day plan from the actual completion signals in the self-check-in.
 4. The coach chooses a next practice area with a clear reason.
 5. The coach respects exercise and meditation as optional routine anchors, not medical inputs.
-6. The coach uses only the approved Gmail test scope.
-7. The coach does not imply that any outreach, calendar, or recurring automation was executed.
+6. The coach recommends the best contact from the approved network source with a clear reason.
+7. The coach uses only the approved Gmail test scope and approved network source.
+8. The coach does not imply that any outreach, calendar, or recurring automation was executed.
 
 ## Failure examples
 
