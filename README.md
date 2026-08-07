@@ -120,6 +120,10 @@ JobSearchCoach does not mass apply, fabricate qualifications, guarantee intervie
 
 See [SYSTEM_BLUEPRINT.md](SYSTEM_BLUEPRINT.md) for the coach architecture, data model, recurring workflow design, and connector boundaries.
 
+## End-to-end test
+
+See [E2E_EMAIL_TEST.md](E2E_EMAIL_TEST.md) for a narrow-scope Gmail sandbox workflow that tests onboarding, job alert ingestion, application tracking, end-of-day feedback, and next-day planning end to end.
+
 ## Repository contents
 
 ```text
@@ -148,6 +152,7 @@ tests/
 - [Contribution guidance](CONTRIBUTING.md)
 - [Testing results](tests/TEST_RESULTS.md)
 - [System blueprint](SYSTEM_BLUEPRINT.md)
+- [End-to-end email sandbox test](E2E_EMAIL_TEST.md)
 - [Official OpenAI skill documentation](https://learn.chatgpt.com/docs/build-skills)
 
 ## License
