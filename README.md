@@ -2,7 +2,7 @@
 
 A human-centered AI coaching system for job search execution, market-fit learning, and sustainable daily routines.
 
-JobSearchCoach helps a job seeker connect demonstrated market fit, verified opportunities, curated resume versions, thoughtful professional connections, interview and technical practice, realistic daily planning, and outcome-based learning.
+JobSearchCoach helps a job seeker connect demonstrated market fit, verified opportunities, curated resume versions, interview and technical practice, realistic daily planning, recording-informed feedback, and outcome-based learning.
 
 It optimizes for relevant opportunities, interview readiness, and sustainable execution rather than application volume.
 
@@ -10,17 +10,25 @@ It optimizes for relevant opportunities, interview readiness, and sustainable ex
 
 Most job alerts match titles and keywords. They often ignore whether a role fits the person's actual responsibilities, domain advantages, location limits, management experience, readiness, habits, and available time.
 
-JobSearchCoach begins with evidence: work performed successfully, applications that produced interviews, recurring strengths, explicit constraints, and the user's real working rhythm. It uses that evidence to screen opportunities, select the closest truthful resume, recommend small adaptations, identify an appropriate networking path, and practice the skills most likely to matter.
+JobSearchCoach begins with evidence: work performed successfully, applications that produced interviews, recurring strengths, explicit constraints, the user's real working rhythm, and what recent training or review sessions revealed. It uses that evidence to screen opportunities, select the closest truthful resume, recommend small adaptations, identify the skills most likely to matter next, and update tomorrow's plan from what was actually learned today.
 
 It also supports an ongoing routine:
 
 - daily job recommendations matched to fit and constraints;
 - a realistic daily plan that respects work windows, exercise, meditation, and other user-defined anchors;
 - targeted practice selection across interview, SQL, Python, case, or domain preparation;
+- learning from approved daily check-ins, training notes, and recording or transcript review so the next day adapts to real gaps and progress;
 - connector-based monitoring of approved submission folders and approved email threads;
-- approved LinkedIn-profile and network review to recommend who to contact next;
+- optional approved network review to recommend who to contact next when the user wants it;
 - lightweight progress capture through daily completion feedback or a reply to the user's own tracking email;
 - a Friday science reading brief selected from the user's approved interest list.
+
+The center of the system is the continuous learning loop:
+
+1. observe what was completed or missed;
+2. review what practice recordings, transcripts, or coaching notes revealed;
+3. detect changing gaps and priorities;
+4. update the next day accordingly.
 
 ## Core workflow
 
@@ -29,12 +37,12 @@ It also supports an ongoing routine:
 3. **Routine profile** — learns the user's schedule, concentration windows, sustainable habits, and preferred planning style.
 4. **Resource setup** — supports manual uploads or explicitly approved folders and connectors.
 5. **Opportunity review** — applies approved hard exclusions before fit scoring.
-6. **Resume and connection guidance** — recommends limited truthful edits and verified outreach routes.
-7. **Readiness training** — diagnoses positioning, fluency, knowledge, and qualification gaps.
+6. **Readiness training** — diagnoses positioning, fluency, knowledge, and qualification gaps.
+7. **Practice and recording review** — learns from drills, mock interviews, transcripts, and review notes.
 8. **Daily planning** — turns priorities into precise, feasible tasks with definitions of done.
 9. **Connector-aware progress tracking** — reads approved email or drive sources to understand what was submitted or practiced.
-10. **Network guidance** — ranks the best people to contact from an approved LinkedIn network view or other approved sources.
-11. **Outcome learning** — adapts from applications, interviews, completions, and user feedback.
+10. **Outcome learning** — adapts from applications, interviews, completions, user feedback, and recording-derived evidence.
+11. **Optional network guidance** — ranks the best people to contact from approved network sources when networking is relevant.
 12. **Weekly science brief** — on Fridays, curates relevant science or research reading from an approved list aligned to the user's career interests.
 
 ## Product behaviors
@@ -44,9 +52,11 @@ It also supports an ongoing routine:
 - job families, industries, and missions the user wants or wants to avoid;
 - what the market already validated through interviews and recruiter interest;
 - which preparation modes convert best for the user;
+- what recent recordings or review notes reveal about fluency, hesitation, or communication gaps;
 - which daily habits should be protected or encouraged as optional planning anchors;
 - which practice area should come next: interview, SQL, Python, case, domain reading, or positioning.
-- which parts of the user's network are most likely to help now.
+- which work-submission or training priority should move up tomorrow;
+- which parts of the user's network may help when networking is relevant.
 
 ### What the coach can do
 
@@ -55,8 +65,9 @@ It also supports an ongoing routine:
 - tell the user when to focus on interview prep instead of more applications;
 - detect whether the user needs fluency practice, a resume adaptation, or a targeting change;
 - carry forward unfinished work and avoid repeating completed work;
+- learn from approved recordings, transcripts, or coaching notes to reprioritize the next day;
 - use approved Gmail and Drive sources to monitor progress without requiring broad account access.
-- use an approved LinkedIn profile or approved network export to recommend the next best outreach targets.
+- use an approved LinkedIn profile or approved network export to recommend outreach targets when that is useful, but keep networking secondary to the main learning loop.
 
 ### What the coach will not do
 
@@ -134,6 +145,7 @@ Users should connect their own private folders, email threads, and notes separat
 - “I do not want to connect any accounts. Use one uploaded resume and pasted job descriptions.”
 - “Create a realistic weekday plan that includes applications, networking, and SQL practice.”
 - “Use my approved Gmail and Drive sources to monitor what I submitted and plan tomorrow.”
+- “Use my practice notes or transcript to tell me what gap showed up today and what tomorrow should focus on.”
 - “Use my LinkedIn network to tell me who I should contact this week and why.”
 - “Every Friday, give me one short science reading brief relevant to my target career direction.”
 

@@ -46,6 +46,8 @@ Ask which mode the user wants. Allow a one-question-at-a-time preference.
 
 Do not bury the user in commentary. Do not provide the answer before the attempt unless requested.
 
+If the practice is reviewed later through a recording, transcript, or coaching note, use that review to update the next day's training priority.
+
 ## Technical drills
 
 Use small realistic schemas, data, or code contexts. Target role-relevant skills such as:
@@ -60,9 +62,10 @@ Define completion precisely, for example: solve two independently and correct on
 When selecting the next practice topic, use this order:
 
 1. an upcoming interview requirement;
-2. the most common gap across current high-fit roles;
-3. the weakest high-importance readiness item;
-4. the user's requested development area when it does not conflict with the first three.
+2. the strongest gap revealed by the latest reviewed practice or recording;
+3. the most common gap across current high-fit roles;
+4. the weakest high-importance readiness item;
+5. the user's requested development area when it does not conflict with the first four.
 
 ## Interview practice
 

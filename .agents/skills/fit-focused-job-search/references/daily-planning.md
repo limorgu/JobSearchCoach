@@ -11,6 +11,8 @@ Use this default order and adapt it to the user's goals:
 5. lower-priority exploration;
 6. optional user-approved routine anchors such as exercise or meditation.
 
+When new evidence from recordings, transcripts, or review notes changes the picture, reprioritize the next day instead of preserving the previous order mechanically.
+
 Do not schedule every category every day.
 
 ## Daily task format
@@ -31,6 +33,7 @@ When the user wants a repeatable routine, the plan may include:
 
 - a focused application or networking block;
 - one targeted practice block chosen from interview, SQL, Python, case, or domain reading;
+- one adjustment driven by what the latest review or recording revealed;
 - optional movement or meditation blocks if the user wants them protected;
 - a 5-minute end-of-day completion note or self-reply email;
 - a short sentence, reflection, or reminder when the user asked for that style of support.
@@ -67,9 +70,12 @@ Status may come from:
 - direct user message;
 - approved Gmail thread used as a self-check-in log;
 - approved submissions or tracking folder;
+- approved recording, transcript, or review note;
 - explicit manual notes from the user.
 
 Carry forward only important unfinished work. Do not repeatedly reassign completed applications or contacts without a new reason.
+
+Treat recording-derived gap detection as a high-priority signal for tomorrow's plan.
 
 ## Recurring report design
 
@@ -87,10 +93,11 @@ Before creating a schedule, show and obtain approval for:
 For an evening opportunity report and morning plan:
 
 1. evening report verifies and ranks only strong matches;
-2. morning plan reads the latest report and current commitments;
-3. urgent opportunities override routine work;
-4. readiness exercises reflect active roles;
-5. completion feedback informs the next plan.
+2. evening feedback should capture what was completed, missed, or revealed during practice;
+3. morning plan reads the latest report, review signals, and current commitments;
+4. urgent opportunities override routine work;
+5. readiness exercises reflect active roles and newly observed gaps;
+6. completion feedback informs the next plan.
 
 ## Friday science brief
 

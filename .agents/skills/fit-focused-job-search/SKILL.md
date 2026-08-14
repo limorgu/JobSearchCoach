@@ -1,11 +1,11 @@
 ---
 name: fit-focused-job-search
-description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, identify appropriate networking paths, use an approved LinkedIn profile or network source for contact recommendations, practice interview or technical skills, create sustainable daily or weekly plans, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or maintain an ongoing daily routine that adapts to market fit, schedule, and prior progress. Also use to reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, practice interview or technical skills, learn from recordings or review notes, create sustainable daily or weekly plans, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or maintain an ongoing daily routine that adapts to market fit, schedule, prior progress, and newly observed gaps. Use approved network sources for contact recommendations when that is helpful, but keep the main emphasis on continuous learning from completed work and practice. Also use to reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search
 
-Create a job-search operating system that connects demonstrated market fit, current opportunities, professional relationships, readiness training, realistic execution, and the user's ongoing routine. Optimize for relevance, conversion, and sustainable repetition, not application volume.
+Create a job-search operating system that connects demonstrated market fit, current opportunities, readiness training, recording-informed learning, realistic execution, and the user's ongoing routine. Optimize for relevance, conversion, and sustainable repetition, not application volume.
 
 ## Operating principles
 
@@ -15,9 +15,10 @@ Create a job-search operating system that connects demonstrated market fit, curr
 4. Preserve every fact in the user's career history. Reframe truthfully; never invent.
 5. Distinguish a positioning gap, a fluency gap, and a genuine qualification gap.
 6. Keep the plan sustainable. Optional wellbeing preferences are scheduling inputs, not health assessments.
-7. Use relationships thoughtfully. Verify identities and relationship context before suggesting outreach.
+7. Learn from completed work. Use recordings, transcripts, review notes, and progress signals to change what happens next.
 8. Ask permission before connecting accounts, reading private sources, sending messages, creating events, or scheduling recurring work.
-9. Focus on what the user cares about most: fit quality, reduced overwhelm, routine stability, interview readiness, privacy, or speed.
+9. Use relationships thoughtfully when relevant. Verify identities and relationship context before suggesting outreach.
+10. Focus on what the user cares about most: fit quality, reduced overwhelm, routine stability, interview readiness, privacy, or speed.
 
 ## Route the request
 
@@ -43,6 +44,7 @@ Ask only the next small group of questions needed. Do not deliver a long intake 
 - hard qualification exclusions;
 - available resume or application sources;
 - available networking sources such as LinkedIn profile or approved connection exports;
+- available practice-review sources such as recordings, transcripts, or coaching notes;
 - interview and technical-readiness needs;
 - realistic time and optional sustainable-work preferences.
 - whether the user wants connector-assisted monitoring, daily check-ins, or weekly science reading.
@@ -77,6 +79,7 @@ When the user wants continuity across days:
 
 - prefer a curated submissions folder, a curated resume folder, or approved Gmail threads over broad account access;
 - accept a daily self-reply email or short end-of-day status note as valid progress input;
+- treat recordings, transcripts, and practice-review notes as high-value evidence for next-day reprioritization;
 - treat Drive and Gmail as evidence sources, not as implicit permission to act.
 
 ### 4. Evaluate opportunities
@@ -108,6 +111,13 @@ When several practice paths are plausible, choose the next one by urgency and co
 3. skill the user already partly knows but cannot yet perform fluently;
 4. longer-horizon exploration or study.
 
+After practice, learn from what happened:
+
+- capture what the user completed or skipped;
+- capture what recordings, transcripts, or review notes revealed;
+- identify whether the next day's top priority changed;
+- prefer updating tomorrow over preserving yesterday's plan.
+
 ### 6. Create the execution plan
 
 Prioritize interviews, recruiter requests, referrals, and exceptional matches. Schedule precise tasks with a definition of done. Include targeted training. Avoid placing every priority on every day.
@@ -117,11 +127,14 @@ If the user requested daily routines, include:
 - optional movement, meditation, or other user-approved anchors;
 - a single top-priority search action;
 - one targeted practice task;
+- one reason the plan changed, when new evidence caused reprioritization;
 - a lightweight end-of-day feedback step.
 
 ### 7. Learn from outcomes
 
 Record user-reported outcomes such as applied, interview invited, rejected, completed, skipped, or no longer interested. Recalibrate future matching and training without treating silence or rejection as a definitive judgment of ability.
+
+Use recordings, transcripts, coaching notes, and practice reviews as first-class learning inputs. The system should learn not only from what was scheduled or submitted, but from what the work itself revealed.
 
 If the user requested weekly learning support, produce a Friday science or research brief from approved sources or an approved reading list. Connect the reading explicitly to the user's target roles or current practice gaps.
 

@@ -9,8 +9,9 @@ Build a continuous AI coach that helps a user run a job search the way a strong 
 - choose the next best task;
 - adapt the daily plan to available time and energy;
 - focus practice on the highest-impact gap;
+- learn from recordings, transcripts, and review notes after practice;
 - learn from prior submissions, interviews, and completions;
-- learn from approved networking assets such as LinkedIn profile or network exports;
+- optionally learn from approved networking assets such as LinkedIn profile or network exports;
 - keep the routine sustainable.
 
 ## Core modules
@@ -62,6 +63,8 @@ Each task should include:
 - definition of done;
 - necessary files or links.
 
+The plan should be updated from the newest evidence rather than repeating yesterday's plan by default.
+
 ### 4. Practice selector
 
 Choose the next practice mode from:
@@ -80,7 +83,19 @@ Selection rule:
 - repeated role requirements beat isolated preferences;
 - fluency gaps beat new content when the interview is near.
 
-### 5. Connector-aware progress tracker
+### 5. Recording and review learner
+
+Use approved practice recordings, transcripts, or review notes to identify:
+
+- repeated hesitation points;
+- unclear explanations or weak stories;
+- technical fluency gaps;
+- visible progress since the last review;
+- whether the next day's plan should be reprioritized.
+
+This learning loop is one of the core engines of the system, not an optional add-on.
+
+### 6. Connector-aware progress tracker
 
 Approved data sources may include:
 
@@ -98,9 +113,11 @@ The tracker should infer only approved signals:
 - completed practice;
 - unfinished task carried forward.
 
-### 6. Network recommender
+The tracker should work together with the recording-and-review learner so the next plan reflects both what was done and what was learned.
 
-Use approved LinkedIn or other professional-network sources to recommend who to contact next.
+### 7. Network recommender
+
+Use approved LinkedIn or other professional-network sources to recommend who to contact next when networking is relevant.
 
 Inputs may include:
 
@@ -121,7 +138,9 @@ For each recommended contact, produce:
 
 Never send outreach automatically.
 
-### 7. Friday science brief
+This module is secondary to the main learning loop built from practice, submissions, recordings, and next-day reprioritization.
+
+### 8. Friday science brief
 
 Every Friday, produce one short brief from an approved reading list or approved source set.
 
@@ -154,6 +173,7 @@ Output shape:
 - optional routine anchors
 - approved connectors
 - approved networking sources
+- approved practice-review sources
 
 ### Opportunity record
 
@@ -177,6 +197,8 @@ Output shape:
 - interviews scheduled
 - practiced competency
 - freeform user notes
+- recording-derived gap summary
+- next-day reprioritization reason
 - outreach targets suggested
 - outreach attempted
 

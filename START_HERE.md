@@ -11,9 +11,21 @@ It helps a user:
 - define which roles fit and which do not;
 - plan realistic daily job-search work;
 - choose the right practice, such as behavioral, SQL, Python, or positioning;
-- monitor progress from approved files or email threads;
-- recommend who to contact next from approved networking sources;
+- monitor progress from approved files, email threads, and practice-review inputs;
+- learn from recordings, transcripts, and coaching notes to adjust the next day;
+- recommend who to contact next from approved networking sources when useful;
 - keep the process sustainable over time.
+
+## What matters most
+
+The main value of this skill is the learning cycle:
+
+1. review what was actually done;
+2. review what recordings, transcripts, or practice notes revealed;
+3. identify the most important gap or improvement;
+4. update the next day's priorities.
+
+Networking can be part of the workflow, but it is not the center of the system.
 
 ## What this repository is not
 
@@ -69,6 +81,7 @@ Expect it to ask about:
 - `Use one resume and three job descriptions to tell me where I am the strongest fit.`
 - `Create a weekday routine with 90 minutes a day for applications, SQL, and behavioral prep.`
 - `Use my approved Gmail thread to track what I finished and plan tomorrow.`
+- `Use my transcript or practice notes to tell me what changed and what tomorrow should focus on.`
 - `Use my approved LinkedIn network note to tell me who I should contact this week and why.`
 
 ## Easiest trust-first setup
