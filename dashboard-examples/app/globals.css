@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root { --background: #f5f3ef; --foreground: #17202a; --ink-muted: #637080; --line: #d9d8d2; --green: #176b5b; --violet: #5e48ae; --cream: #fffdf8; }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif; margin: 0;
+}
+
+* { box-sizing: border-box; }
+main { max-width: 1160px; padding: 72px 28px 34px; margin: auto; }
+.hero { max-width: 760px; margin-bottom: 48px; }
+.eyebrow, .label { color: var(--green); font-size: 11px; font-weight: 700; letter-spacing: .12em; margin: 0 0 11px; }
+h1 { font-size: clamp(42px, 6vw, 72px); line-height: .98; letter-spacing: -.065em; margin: 0; }
+h2 { font-size: 25px; margin: 0; letter-spacing: -.035em; }
+.lede { font-size: 18px; color: var(--ink-muted); max-width: 650px; line-height: 1.55; margin: 22px 0; }
+.privacy-note { background: #e2eee9; color: var(--green); border-radius: 99px; display: inline-block; padding: 9px 13px; font-size: 13px; font-weight: 700; }.privacy-note span{font-size:11px;margin-right:5px}
+.pipeline-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.panel { background: var(--cream); border: 1px solid var(--line); border-radius: 18px; padding: 27px; min-height: 430px; box-shadow: 0 8px 30px rgba(22,31,41,.05); }
+.panel-header { display: flex; justify-content: space-between; gap: 12px; align-items: start; }.status { background: #e2eee9; color: var(--green); padding: 7px 10px; border-radius: 99px; font-size: 12px; font-weight: bold; }.status.violet { background: #ede9fb; color: var(--violet); }.training-panel .label { color: var(--violet); }
+.panel-copy { color: var(--ink-muted); line-height: 1.5; min-height: 48px; }.metrics { display: grid; grid-template-columns: repeat(3,1fr); border-block: 1px solid var(--line); margin: 22px 0; padding: 16px 0; }.metrics div { border-right: 1px solid var(--line); padding-left: 12px; }.metrics div:first-child{padding-left:0}.metrics div:last-child{border:0}.metrics strong { font-size: 28px; display:block;}.metrics span{font-size:11px;color:var(--ink-muted)}
+.focus-card,.question-card { background: #f0f6f3; border-radius: 12px; padding: 15px; }.question-card { background: #f1effa; }.focus-card .label,.question-card .label { margin-bottom: 5px; }.focus-card strong,.question-card strong { font-size: 14px; display:block; line-height:1.35; }.focus-card small,.question-card small { color: var(--ink-muted); display:block; margin-top:7px; }
+.checklist { padding: 0; list-style:none; font-size: 13px; line-height: 2.1; margin: 16px 0 0; }.checklist i { font-style:normal; display:inline-block; width:18px; color:var(--green); font-weight:bold; }
+.sprint { display:grid; grid-template-columns: repeat(4,1fr); gap: 5px; margin:20px 0;}.sprint span{background:#eeece8;text-align:center;padding:7px;border-radius:6px;font-size:12px;color:var(--ink-muted);font-weight:bold}.sprint .active{background:var(--violet);color:white}.topics{display:flex;flex-wrap:wrap;gap:6px;margin:17px 0}.topics span{border:1px solid #d9d4ec;color:#6c6391;padding:5px 8px;font-size:11px;border-radius:99px}.topics .selected{background:#ede9fb;color:var(--violet);font-weight:bold}.progress-row{display:flex;align-items:center;gap:10px;font-size:11px;color:var(--ink-muted)}.track{height:7px;background:#e7e5e0;border-radius:99px;flex:1;overflow:hidden}.track b{display:block;width:25%;height:100%;background:var(--violet)}.progress-row strong{color:var(--violet)}
+.connection { margin-top: 22px; background:#1d2d3c; color:white; border-radius:18px; padding:29px; display:flex; gap:45px; align-items:center; }.connection .label{color:#9ed4c4}.connection h2{font-size:27px;max-width:480px}.connection p:last-child{color:#c7d1d8;line-height:1.55;max-width:380px;margin:0}footer{display:flex;justify-content:space-between;font-size:12px;color:var(--ink-muted);margin-top:25px;padding:0 4px}@media(max-width:720px){main{padding:44px 18px}.pipeline-grid{grid-template-columns:1fr}.connection{display:block}.connection p:last-child{margin-top:18px}footer{display:block;line-height:2}}
