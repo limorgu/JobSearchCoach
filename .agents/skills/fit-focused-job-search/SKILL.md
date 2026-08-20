@@ -1,11 +1,11 @@
 ---
 name: fit-focused-job-search
-description: Run a personalized, evidence-based job-search decision pipeline. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable execution, use approved progress sources, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Link data-science training requests to the separate DataScienceSprintCoach repository; do not mix its training workflow or history into this skill. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Run a routine-first job-search coach centered on a 7am plan and 5pm check-in. Use when a job seeker wants today's priorities, high-fit opportunities, applications or networking actions, end-of-day adaptation, or an evidence-based next step. Use resumes and role-fit analysis only when they support a selected daily action. Link data-science training requests to the separate DataScienceSprintCoach repository; do not mix its training workflow or history into this skill. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search
 
-Create a job-search operating system that connects demonstrated market fit, current opportunities, realistic execution, and the user's ongoing routine. Optimize for relevance, conversion, and sustainable repetition, not application volume.
+Run the job-search routine first: create the 7am plan, close the loop at 5pm, and use the private 9pm record to inform tomorrow. Use role fit, resumes, opportunities, and approved sources only when they support a specific routine action.
 
 ## Operating principles
 
@@ -22,7 +22,8 @@ Create a job-search operating system that connects demonstrated market fit, curr
 
 ## Route the request
 
-- For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
+- For the normal 7am or 5pm routine, read `references/daily-planning.md` first. Do not begin with general onboarding or a resume review.
+- For first-time setup or major recalibration, read `references/onboarding.md` only when the routine cannot proceed without it.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
 - For data-science training, route to the separate repository: `https://github.com/limorgu/DataScienceSprintCoach`.

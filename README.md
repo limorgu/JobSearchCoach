@@ -17,15 +17,15 @@ They can exchange only a small readiness signal: the Job Search Coach may tell t
 
 An evidence-based job-search operating system that adapts from real outcomes, constraints, and completed work.
 
-JobSearchCoach is not a job board, an ATS, or an automatic application engine. It is a decision pipeline: turn demonstrated experience and explicit constraints into better role choices, truthful resume selection, focused next actions, and a plan that improves as outcomes arrive.
+JobSearchCoach is not a job board, ATS, or general resume-review tool. It is a routine-first coach: the 7am plan decides the few actions that matter today, and the 5pm check-in turns what happened into a better plan for tomorrow.
 
-It optimizes for fit quality, continuous learning, and sustainable execution rather than application volume.
+It optimizes for a clear daily rhythm, continuous learning, and sustainable execution rather than application volume.
 
 ## Architecture
 
 The repository contains two connected but separate systems:
 
-- **Job Search Coach** — owns onboarding, evidence and fit, opportunity screening, resume selection, networking, the 7am plan, the 5pm check-in, and outcome-based adaptation. Its user interface is [JOB_SEARCH_COACH.md](JOB_SEARCH_COACH.md).
+- **Job Search Coach** — owns the 7am plan, 5pm check-in, private 9pm record, and the opportunity, networking, or resume action selected by that routine. Its user interface is [JOB_SEARCH_COACH.md](JOB_SEARCH_COACH.md).
 - **Data Science Sprint Coach** — owns data-science questions, session state, topic banks, and progress evidence in its [separate repository](https://github.com/limorgu/DataScienceSprintCoach).
 
 This separation prevents job-search decisions and training history from being mixed together.
@@ -34,7 +34,7 @@ This separation prevents job-search decisions and training history from being mi
 
 The advantage is not another title-or-keyword matcher. It is a continuous learning and adaptation pipeline: evidence from real outcomes, explicit constraints, and daily completion feedback improves the next decision.
 
-JobSearchCoach begins with evidence: work performed successfully, applications that produced interviews, recurring strengths, explicit constraints, and the user's real working rhythm. It uses that evidence to screen opportunities, select the closest truthful resume, recommend small adaptations, and update tomorrow's plan from what was actually learned today.
+JobSearchCoach begins with the day's priority and the user's real working rhythm. It uses only the evidence needed for today's action, then updates tomorrow's plan from what was actually learned today.
 
 It also supports an ongoing routine:
 

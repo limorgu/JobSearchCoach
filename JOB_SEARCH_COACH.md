@@ -2,7 +2,7 @@
 
 > Start with [DAILY_ROUTINE.md](DAILY_ROUTINE.md) for the 7am plan, 5pm check-in, and private 9pm progress record.
 
-This is a stand-alone job-search operating system. It helps you find high-fit opportunities, decide what to do next, prepare truthful application materials, and learn from real outcomes.
+This is a routine-first Job Search Coach. Its main interface is the 7am plan and the 5pm check-in: decide today's actions, record what changed, and improve tomorrow's plan.
 
 It does **not** run interview practice. For that separate system, see [Data Science Sprint Coach](https://github.com/limorgu/DataScienceSprintCoach).
 
@@ -11,10 +11,12 @@ It does **not** run interview practice. For that separate system, see [Data Scie
 Open this repository in Codex and say:
 
 ```text
-Use @fit-focused-job-search to set up my job-search pipeline and 7am/5pm routine.
+Run my 7am job-search plan.
 ```
 
-You can start with only a resume, a few target roles, and your constraints. Gmail, Drive, calendar, and network sources are optional and always require approval.
+At 5pm, use: `Run my 5pm job-search check-in and update tomorrow's priorities.`
+
+A resume, target roles, Gmail, Drive, calendar, and network sources are optional supporting inputs—not the public coach's starting point. They are used only when a daily action calls for them and the user approves.
 
 ## The daily interface
 
@@ -44,21 +46,18 @@ The next 7am plan learns from that check-in. It carries forward only important u
 
 The dedicated 9pm progress agent records the day's real applications, networking outcomes, completed work, constraints, dashboard results, and next-day context in local `private-progress/`. This folder is excluded from Git and is never part of the public coach interface.
 
-## What this coach owns
+## What the routine owns
 
-- evidence-based role fit and hard exclusions;
-- opportunity discovery, verification, and prioritization;
-- truthful resume selection and small factual adaptations;
-- networking suggestions and follow-up priorities;
-- daily 7am planning and 5pm learning/check-in;
-- optional weekly research brief;
-- approved-source progress tracking.
+- 7am priorities, high-fit opportunities, and time-bounded actions;
+- 5pm completion, outcomes, constraints, and next-day adaptation;
+- approved networking and application follow-ups when they are the highest-priority action;
+- private 9pm progress capture.
+
+Resume selection, role-fit analysis, and source connections remain available only as supporting work for a specific daily action.
 
 ## What you receive
 
-For a strong opportunity, the coach returns a verified link, fit rationale, central gap, Apply/Consider/Skip recommendation, closest truthful resume, small adaptations, networking route, and the next action.
-
-For the daily routine, it returns a short, practical plan rather than a long generic to-do list.
+The 7am routine returns a short practical plan; the 5pm routine returns a concise update to tomorrow's priorities. It does not begin by asking for a general resume review or a large onboarding process.
 
 ## Boundaries
 

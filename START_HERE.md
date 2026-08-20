@@ -6,20 +6,18 @@ This guide is for people who want to use JobSearchCoach quickly and safely.
 
 ## What this repository is
 
-JobSearchCoach is a Codex skill package for running an adaptive, evidence-based job-search pipeline.
+JobSearchCoach is a routine-first Codex skill: use it at 7am to decide today's job-search actions and at 5pm to close the loop and improve tomorrow's plan.
 
 It helps a user:
 
-- define which roles fit and which do not;
-- plan realistic daily job-search work;
-- monitor progress from approved files, email threads, and outcome inputs;
+- set a small, realistic 7am plan;
+- run a short 5pm check-in;
 - learn from completed work to adjust the next day;
-- recommend who to contact next from approved networking sources when useful;
-- keep the process sustainable over time.
+- use opportunities, networking, fit analysis, or resume work only when they support today's plan.
 
 ## What matters most
 
-The main value of this skill is the learning cycle:
+The main value of this skill is the two-touchpoint learning cycle:
 
 1. review what was actually done;
 2. identify the most important outcome, constraint, or improvement;
