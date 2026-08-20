@@ -1,6 +1,6 @@
 ---
 name: fit-focused-job-search
-description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable job-search execution, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Route data-science interview readiness to the separate data-science training sprint leaf. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable job-search execution, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Link data-science training requests to the separate sprint leaf. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search
@@ -25,7 +25,7 @@ Create a job-search operating system that connects demonstrated market fit, curr
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For data-science interview, coding, case, domain, or technical-readiness practice, read `references/data-science-training-sprint.md`. Keep all practice content, state, questions, and progress inside that separate leaf.
+- For data-science training, read `references/data-science-training-sprint.md`. Keep it separate from this job-search workflow.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
@@ -95,11 +95,9 @@ For each strong match, provide:
 - one appropriate contact path from approved networking sources when available;
 - whether this role should change tomorrow's plan or keep the current routine.
 
-### 5. Route readiness work
+### 5. Link separate training work
 
-When an imminent interview or repeated role requirement reveals a data-science readiness need, route it to `references/data-science-training-sprint.md`. Pass only the role family, interview surface, readiness need, available time, and approved schema. Do not conduct practice, store question state, or interpret training evidence in the parent.
-
-Use only the leaf's compact return signal to decide whether a job-search plan needs a timing or priority adjustment.
+When a user asks for data-science training, link to `references/data-science-training-sprint.md`. Do not include training procedures, questions, state, or results in the parent coach.
 
 ### 6. Create the execution plan
 
@@ -116,7 +114,7 @@ If the user requested daily routines, include:
 
 Record user-reported outcomes such as applied, interview invited, rejected, completed, skipped, or no longer interested. Recalibrate future matching without treating silence or rejection as a definitive judgment of ability.
 
-If the user requested weekly learning support, produce a Friday science or research brief from approved sources or an approved reading list. Connect the reading explicitly to the user's target roles or current practice gaps.
+If the user requested weekly learning support, produce a Friday science or research brief from approved sources or an approved reading list. Connect the reading explicitly to the user's target roles or career interests.
 
 ## Connected actions
 

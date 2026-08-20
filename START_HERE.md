@@ -10,9 +10,8 @@ It helps a user:
 
 - define which roles fit and which do not;
 - plan realistic daily job-search work;
-- choose the right practice, such as behavioral, SQL, Python, or positioning;
-- monitor progress from approved files, email threads, and practice-review inputs;
-- learn from recordings, transcripts, and coaching notes to adjust the next day;
+- monitor progress from approved files, email threads, and outcome inputs;
+- learn from completed work to adjust the next day;
 - recommend who to contact next from approved networking sources when useful;
 - keep the process sustainable over time.
 
@@ -21,8 +20,7 @@ It helps a user:
 The main value of this skill is the learning cycle:
 
 1. review what was actually done;
-2. review what recordings, transcripts, or practice notes revealed;
-3. identify the most important gap or improvement;
+2. identify the most important outcome, constraint, or improvement;
 4. update the next day's priorities.
 
 Networking can be part of the workflow, but it is not the center of the system.
@@ -70,7 +68,6 @@ Expect it to ask about:
 - roles to avoid;
 - location and work setup constraints;
 - strongest evidence of fit;
-- interview and technical gaps;
 - realistic weekly schedule;
 - optional habits such as exercise or meditation;
 - whether you want to use files, Gmail, Drive, or networking sources.
@@ -79,9 +76,8 @@ Expect it to ask about:
 
 - `Help me define the best target roles based on my past interviews and strengths.`
 - `Use one resume and three job descriptions to tell me where I am the strongest fit.`
-- `Create a weekday routine with 90 minutes a day for applications, SQL, and behavioral prep.`
+- `Create a weekday routine with 90 minutes a day for applications and networking.`
 - `Use my approved Gmail thread to track what I finished and plan tomorrow.`
-- `Use my transcript or practice notes to tell me what changed and what tomorrow should focus on.`
 - `Use my approved LinkedIn network note to tell me who I should contact this week and why.`
 
 ## Easiest trust-first setup
@@ -155,8 +151,8 @@ This is the actual skill package.
   How the coach evaluates role fit using evidence instead of titles alone.
 - `references/resources-and-connections.md`
   How resumes, folders, Gmail, Drive, and networking sources are handled.
-- `references/training.md`
-  How interview and technical practice are selected and run.
+- `references/data-science-training-sprint.md`
+  The separate linked Data Science Sprint leaf.
 - `references/daily-planning.md`
   How daily execution plans are built.
 - `references/privacy-and-permissions.md`

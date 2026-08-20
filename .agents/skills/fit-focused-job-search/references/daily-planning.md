@@ -45,10 +45,6 @@ When the user wants a repeatable routine, the plan may include:
 - Prefer a smaller executable plan over an ambitious plan likely to fail.
 - Adapt the plan to the user's real concentration window rather than distributing tasks evenly.
 
-## Opportunity handoff
-
-For each urgent strong match, identify the interview surface only when needed to route the user to the separate data-science training sprint leaf. Do not schedule, run, or track practice in the job-search coach.
-
 ## Feedback loop
 
 Accept lightweight status such as:

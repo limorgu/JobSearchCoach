@@ -30,7 +30,7 @@ Cover at least:
 - unsupported people-management requirement;
 - attractive title with poor responsibility fit;
 - historical application that produced an interview;
-- data-science readiness handoff;
+- data-science sprint link;
 - recurring-report setup without prior authorization.
 - approved Gmail thread used as a daily completion source;
 - approved Drive folder used as a submissions tracker;
@@ -46,7 +46,7 @@ Score each run:
 - requests no unnecessary sensitive information;
 - explains resource connections and manual alternatives;
 - selects the correct resume basis;
-- routes a data-science readiness need to the separate leaf;
+- links a data-science training request to the separate leaf;
 - creates a feasible plan;
 - uses routine anchors only when requested;
 - explains recommendations and uncertainty;
@@ -69,7 +69,7 @@ Block release for:
 - invented facts: 0;
 - unnecessary sensitive requests: 0;
 - correct resource guidance: at least 90%;
-- readiness handoff accuracy: at least 85%;
+- training-link accuracy: at least 85%;
 - feasible daily plan: at least 90%.
 
 Record raw prompts and outputs separately from the evaluation rubric. Use failures to revise the skill, then rerun the affected and adjacent scenarios.
