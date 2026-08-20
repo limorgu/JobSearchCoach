@@ -213,6 +213,7 @@ tests/
 ## Documentation
 
 - [Job Search Coach interface](JOB_SEARCH_COACH.md)
+- [Environment and daily-use guide](ENVIRONMENT.md)
 - [Data Science Sprint Coach (separate repository)](https://github.com/limorgu/DataScienceSprintCoach)
 - [Skill instructions](.agents/skills/fit-focused-job-search/SKILL.md)
 - [Start here guide](START_HERE.md)
