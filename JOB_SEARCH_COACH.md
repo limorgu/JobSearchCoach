@@ -2,7 +2,7 @@
 
 This is a stand-alone job-search operating system. It helps you find high-fit opportunities, decide what to do next, prepare truthful application materials, and learn from real outcomes.
 
-It does **not** run interview practice. For that separate system, see [Data Science Sprint Coach](DATA_SCIENCE_SPRINT_COACH.md).
+It does **not** run interview practice. For that separate system, see [Data Science Sprint Coach](https://github.com/limorgu/DataScienceSprintCoach).
 
 ## Start here
 

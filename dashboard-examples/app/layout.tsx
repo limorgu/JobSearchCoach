@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JobSearchCoach Dashboard Examples",
-  description: "Public synthetic examples for connected job-search and data-science training dashboards.",
+  title: "JobSearchCoach Dashboard Example",
+  description: "Public synthetic example for the JobSearchCoach daily pipeline.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

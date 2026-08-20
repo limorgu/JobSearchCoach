@@ -7,7 +7,7 @@ Two connected, stand-alone coaches: one runs the job-search routine; the other r
 | Coach | Use it for | Start here |
 | --- | --- | --- |
 | **Job Search Coach** | 7am priorities, 5pm check-ins, fit-based opportunities, applications, networking, and daily actions | [Open the Job Search Coach](JOB_SEARCH_COACH.md) |
-| **Data Science Sprint Coach** | Continuous, topic-based interview practice with question continuity and schema isolation | [Open the Data Science Sprint Coach](DATA_SCIENCE_SPRINT_COACH.md) |
+| **Data Science Sprint Coach** | Continuous, topic-based interview practice with question continuity and schema isolation | [Open the separate repository](https://github.com/limorgu/DataScienceSprintCoach) |
 
 They can exchange only a small readiness signal: the Job Search Coach may tell the sprint about an upcoming interview or a time window; the sprint may return what was practiced and the next readiness gap. Their data, procedures, and results stay separate.
 
@@ -24,7 +24,7 @@ It optimizes for fit quality, continuous learning, and sustainable execution rat
 The repository contains two connected but separate systems:
 
 - **Job Search Coach** — owns onboarding, evidence and fit, opportunity screening, resume selection, networking, the 7am plan, the 5pm check-in, and outcome-based adaptation. Its user interface is [JOB_SEARCH_COACH.md](JOB_SEARCH_COACH.md).
-- **Data Science Sprint Coach** — owns data-science questions, session state, topic banks, and progress evidence. Its user interface is [DATA_SCIENCE_SPRINT_COACH.md](DATA_SCIENCE_SPRINT_COACH.md).
+- **Data Science Sprint Coach** — owns data-science questions, session state, topic banks, and progress evidence in its [separate repository](https://github.com/limorgu/DataScienceSprintCoach).
 
 This separation prevents job-search decisions and training history from being mixed together.
 
@@ -203,10 +203,6 @@ See [E2E_EMAIL_TEST.md](E2E_EMAIL_TEST.md) for a narrow-scope Gmail sandbox work
     ├── daily-planning.md
     ├── privacy-and-permissions.md
     └── testing.md
-└── training/
-    └── data-science-sprint/
-        ├── LEAF.md
-        └── question-bank/
 
 tests/
 ├── personas/
@@ -217,7 +213,7 @@ tests/
 ## Documentation
 
 - [Job Search Coach interface](JOB_SEARCH_COACH.md)
-- [Data Science Sprint Coach interface](DATA_SCIENCE_SPRINT_COACH.md)
+- [Data Science Sprint Coach (separate repository)](https://github.com/limorgu/DataScienceSprintCoach)
 - [Skill instructions](.agents/skills/fit-focused-job-search/SKILL.md)
 - [Start here guide](START_HERE.md)
 - [Privacy and data boundaries](PRIVACY.md)

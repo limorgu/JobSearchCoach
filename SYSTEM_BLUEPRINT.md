@@ -64,7 +64,7 @@ Use approved professional-network sources to recommend appropriate contacts and 
 
 The job-search pipeline may pass an upcoming interview surface, a readiness gap, available time, or approved practice schema to the separate sprint. It receives only a compact readiness signal in return; it never incorporates practice procedures, questions, state, or results.
 
-See [the Job Search Coach interface](JOB_SEARCH_COACH.md) and [the Data Science Sprint Coach interface](DATA_SCIENCE_SPRINT_COACH.md).
+See [the Job Search Coach interface](JOB_SEARCH_COACH.md) and [the separate Data Science Sprint Coach repository](https://github.com/limorgu/DataScienceSprintCoach).
 
 ## Suggested data model
 

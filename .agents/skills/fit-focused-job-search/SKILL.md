@@ -1,6 +1,6 @@
 ---
 name: fit-focused-job-search
-description: Run a personalized, evidence-based job-search decision pipeline. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable execution, use approved progress sources, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Link data-science training requests to the separate sprint leaf; do not mix its training workflow or history into this parent skill. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Run a personalized, evidence-based job-search decision pipeline. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable execution, use approved progress sources, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Link data-science training requests to the separate DataScienceSprintCoach repository; do not mix its training workflow or history into this skill. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search
@@ -25,7 +25,7 @@ Create a job-search operating system that connects demonstrated market fit, curr
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For data-science training, route to `training/data-science-sprint/LEAF.md`. It is a separate coach with its own guide, question banks, sprint plan, state, and progress rules.
+- For data-science training, route to the separate repository: `https://github.com/limorgu/DataScienceSprintCoach`.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
@@ -97,7 +97,7 @@ For each strong match, provide:
 
 ### 5. Link separate training work
 
-When a user asks for data-science training, route to `training/data-science-sprint/LEAF.md`. Do not include training procedures, questions, state, or results in this coach.
+When a user asks for data-science training, route to `https://github.com/limorgu/DataScienceSprintCoach`. Do not include training procedures, questions, state, or results in this coach.
 
 ### 6. Create the execution plan
 
