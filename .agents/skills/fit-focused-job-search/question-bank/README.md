@@ -2,10 +2,21 @@
 
 This folder is owned by the interview-training leaf.
 
-## Folders
+## Topic folders
 
-- `covered/` — verified historical practice evidence.
-- `future/` — planned practice questions that have not yet been completed.
+Each topic owns separate `covered/` and `future/` folders:
+
+- `sql/`
+- `python/`
+- `ml/`
+- `statistics/`
+- `llm/`
+- `design/`
+- `case/`
+- `communication/`
+- `other/`
+
+`covered/` contains only verified practice evidence. `future/` contains planned questions that have not yet been completed. A topic may have an empty `covered/` folder when no verified history exists.
 - `session-state.yaml` — durable continuation state.
 - `schema-registry.md` — dataset isolation rules and sanitized schemas.
 

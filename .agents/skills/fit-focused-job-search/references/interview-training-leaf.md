@@ -46,6 +46,8 @@ Do not restart numbering in a continued sequence.
 
 Before generating any question, read `../question-bank/session-state.yaml`, then read the active dataset entry in `../question-bank/schema-registry.md`.
 
+Use the `active_topic` in session state to read only that topic's `covered/` and `future/` folders under `../question-bank/<topic>/`. Keep each topic's attempted questions and planned questions separate; never treat a planned question as history.
+
 The state must contain:
 - last question reached;
 - next question;
@@ -112,6 +114,8 @@ At the time this leaf was packaged:
 - Q49’s exact prompt must be recovered from source history if it is ever archived; do not fabricate it.
 
 ## Cross-domain roadmap
+
+Keep the question bank organized by topic: `sql`, `python`, `ml`, `statistics`, `llm`, `design`, `case`, `communication`, and `other`. Each topic owns `covered/` for verified attempts and `future/` for planned questions. Add a topic only when it has a real practice need; do not create fictional covered history.
 
 ### SQL
 Prioritize:

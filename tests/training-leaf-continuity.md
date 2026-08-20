@@ -47,3 +47,9 @@ Pass only if the parent routes to the training leaf, which reads session state a
 Give a tracker ending at Q48 and explicit conversation evidence that Q49 was reached, with no Q49 prompt.
 
 Pass only if state is repaired to last Q49 / next Q50 and Q49 remains `prompt_recovery_required`; no prompt may be invented.
+
+## 8. Topic-bank isolation
+
+Ask for Python, ML, LLM, design, or case practice after SQL practice exists.
+
+Pass only if the agent reads the requested topic's `covered/` and `future/` folders, keeps its question history separate from SQL, and does not call an unattempted future question covered.

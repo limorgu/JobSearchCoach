@@ -1,5 +1,6 @@
 version: 1
 domain: SQL
+active_topic: sql
 last_question_reached: 49
 last_question_status: "user-confirmed stopping point; exact prompt missing from tracker"
 next_question: 50
