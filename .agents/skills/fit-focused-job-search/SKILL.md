@@ -25,7 +25,7 @@ Create a job-search operating system that connects demonstrated market fit, curr
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For data-science training, read `training/data-science-sprint/LEAF.md`. This child folder contains its guide, question banks, sprint plan, and progress rules.
+- For data-science training, route to `training/data-science-sprint/LEAF.md`. It is a separate coach with its own guide, question banks, sprint plan, state, and progress rules.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
@@ -97,13 +97,18 @@ For each strong match, provide:
 
 ### 5. Link separate training work
 
-When a user asks for data-science training, link to `training/data-science-sprint/LEAF.md`. Do not include training procedures, questions, state, or results in the parent coach.
+When a user asks for data-science training, route to `training/data-science-sprint/LEAF.md`. Do not include training procedures, questions, state, or results in this coach.
 
 ### 6. Create the execution plan
 
 Prioritize interviews, recruiter requests, referrals, and exceptional matches. Schedule precise tasks with a definition of done. Avoid placing every priority on every day.
 
-If the user requested daily routines, include:
+If the user requested the standard daily routine, use two distinct touchpoints:
+
+- **7am planning**: review current priorities, constraints, and approved opportunity signals; provide the one top action plus a short, time-bounded plan.
+- **5pm check-in**: capture completion, outcomes, useful network activity, and new constraints; use only those signals to adapt the next 7am plan.
+
+For any daily routine, include:
 
 - optional movement, meditation, or other user-approved anchors;
 - a single top-priority search action;

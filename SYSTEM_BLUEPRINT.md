@@ -4,7 +4,7 @@
 
 Build a continuous job-search pipeline that improves decisions from real outcomes. The system learns from fit evidence, explicit constraints, opportunity results, and completion feedback to adapt what happens next.
 
-The parent coach owns job-search work. It only links to the separate Data Science Training Sprint leaf; it does not own training content, questions, or progress state.
+The Job Search Coach owns job-search work. It only links to the separate Data Science Sprint Coach; it does not own training content, questions, or progress state.
 
 ## Parent pipeline
 
@@ -46,6 +46,8 @@ For every strong match:
 
 Create a feasible plan with priority applications, referrals, recruiter requests, networking actions, and evidence-building work. Each task has a time or duration, one action, a reason, and a definition of done.
 
+The standard interface has two touchpoints: a 7am plan that selects the top priority and a short actionable schedule, and a 5pm check-in that records completion, outcomes, constraints, and strong new opportunities. The 5pm signals adapt the next 7am plan.
+
 ### 5. Outcome and adaptation loop
 
 Record only approved signals such as applied, interview invited, rejected, completed, unfinished, or no longer interested. Reprioritize the next plan from the newest outcome and constraint rather than repeating yesterday's plan.
@@ -58,11 +60,11 @@ Use only approved Drive folders, Gmail threads, submission logs, or manual notes
 
 Use approved professional-network sources to recommend appropriate contacts and routes. Draft by default; send only with explicit authorization.
 
-## Separate Data Science Sprint link
+## Separate Data Science Sprint Coach
 
-The job-search pipeline links to the separate Data Science Training Sprint leaf without incorporating its procedures, questions, state, or results.
+The job-search pipeline may pass an upcoming interview surface, a readiness gap, available time, or approved practice schema to the separate sprint. It receives only a compact readiness signal in return; it never incorporates practice procedures, questions, state, or results.
 
-See [the Data Science Training Sprint child](.agents/skills/fit-focused-job-search/training/data-science-sprint/).
+See [the Job Search Coach interface](JOB_SEARCH_COACH.md) and [the Data Science Sprint Coach interface](DATA_SCIENCE_SPRINT_COACH.md).
 
 ## Suggested data model
 

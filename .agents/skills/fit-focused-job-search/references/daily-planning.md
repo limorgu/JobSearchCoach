@@ -81,13 +81,13 @@ Before creating a schedule, show and obtain approval for:
 - whether delivery is a draft or automatic;
 - follow-up feedback format.
 
-For an evening opportunity report and morning plan:
+For the standard 5pm check-in and 7am plan:
 
-1. evening report verifies and ranks only strong matches;
-2. evening feedback should capture what was completed or missed;
-3. morning plan reads the latest report, review signals, and current commitments;
-4. urgent opportunities override routine work;
-5. completion feedback informs the next plan.
+1. the 5pm check-in verifies and ranks only strong new matches, then captures what was completed, missed, or changed;
+2. the 7am plan reads the latest check-in, review signals, and current commitments;
+3. the 7am plan gives one top priority and a short, time-bounded action list with definitions of done;
+4. urgent interviews, recruiter requests, referrals, and exceptional matches override routine work;
+5. the next 5pm check-in closes the loop for the following day.
 
 ## Friday science brief
 

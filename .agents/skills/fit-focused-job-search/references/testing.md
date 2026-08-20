@@ -46,7 +46,7 @@ Score each run:
 - requests no unnecessary sensitive information;
 - explains resource connections and manual alternatives;
 - selects the correct resume basis;
-- links a data-science training request to the separate leaf;
+- routes a data-science training request to the separate sprint coach;
 - creates a feasible plan;
 - uses routine anchors only when requested;
 - explains recommendations and uncertainty;

@@ -1,5 +1,18 @@
 # JobSearchCoach
 
+Two connected, stand-alone coaches: one runs the job-search routine; the other runs continuous data-science interview practice.
+
+## Choose your coach
+
+| Coach | Use it for | Start here |
+| --- | --- | --- |
+| **Job Search Coach** | 7am priorities, 5pm check-ins, fit-based opportunities, applications, networking, and daily actions | [Open the Job Search Coach](JOB_SEARCH_COACH.md) |
+| **Data Science Sprint Coach** | Continuous, topic-based interview practice with question continuity and schema isolation | [Open the Data Science Sprint Coach](DATA_SCIENCE_SPRINT_COACH.md) |
+
+They can exchange only a small readiness signal: the Job Search Coach may tell the sprint about an upcoming interview or a time window; the sprint may return what was practiced and the next readiness gap. Their data, procedures, and results stay separate.
+
+---
+
 An evidence-based job-search operating system that adapts from real outcomes, constraints, and completed work.
 
 JobSearchCoach is not a job board, an ATS, or an automatic application engine. It is a decision pipeline: turn demonstrated experience and explicit constraints into better role choices, truthful resume selection, focused next actions, and a plan that improves as outcomes arrive.
@@ -10,8 +23,8 @@ It optimizes for fit quality, continuous learning, and sustainable execution rat
 
 The repository contains two connected but separate systems:
 
-- **Job Search Coach (parent)** — owns onboarding, evidence and fit, opportunity screening, resume selection, networking, execution planning, and outcome-based adaptation.
-- **Data Science Training Sprint (child)** — lives in [`training/data-science-sprint/`](.agents/skills/fit-focused-job-search/training/data-science-sprint/) and owns data-science questions, session state, topic banks, and progress evidence.
+- **Job Search Coach** — owns onboarding, evidence and fit, opportunity screening, resume selection, networking, the 7am plan, the 5pm check-in, and outcome-based adaptation. Its user interface is [JOB_SEARCH_COACH.md](JOB_SEARCH_COACH.md).
+- **Data Science Sprint Coach** — owns data-science questions, session state, topic banks, and progress evidence. Its user interface is [DATA_SCIENCE_SPRINT_COACH.md](DATA_SCIENCE_SPRINT_COACH.md).
 
 This separation prevents job-search decisions and training history from being mixed together.
 
@@ -203,6 +216,8 @@ tests/
 
 ## Documentation
 
+- [Job Search Coach interface](JOB_SEARCH_COACH.md)
+- [Data Science Sprint Coach interface](DATA_SCIENCE_SPRINT_COACH.md)
 - [Skill instructions](.agents/skills/fit-focused-job-search/SKILL.md)
 - [Start here guide](START_HERE.md)
 - [Privacy and data boundaries](PRIVACY.md)

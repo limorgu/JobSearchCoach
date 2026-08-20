@@ -1,10 +1,10 @@
 # Data Science Training Sprint Leaf
 
-This is the dedicated practice module under the Fit-Focused Job Search parent.
+This is a stand-alone continuous-learning coach for data-science interview practice. It is linked from the Job Search Coach but owns its own workflow, question bank, state, and progress evidence.
 
 Use it for the data-science interview sprint: SQL, Python/pandas, statistics, experimentation, LLM, ML/model evaluation, case/design reasoning, technical explanations, and structured interview communication.
 
-Keep job discovery, resumes, applications, and networking in the parent workflow.
+Keep job discovery, resumes, applications, and networking in the separate Job Search Coach. Its public interface is [`JOB_SEARCH_COACH.md`](../../../../../JOB_SEARCH_COACH.md); this coach's public interface is [`DATA_SCIENCE_SPRINT_COACH.md`](../../../../../DATA_SCIENCE_SPRINT_COACH.md).
 
 ## Boundary and routing contract
 

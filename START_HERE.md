@@ -21,11 +21,11 @@ The main value of this skill is the learning cycle:
 
 1. review what was actually done;
 2. identify the most important outcome, constraint, or improvement;
-4. update the next day's priorities.
+3. update the next day's priorities.
 
 Networking can be part of the workflow, but it is not the center of the system.
 
-For data-science training, use the separate [Data Science Training Sprint child](.agents/skills/fit-focused-job-search/training/data-science-sprint/). The job-search coach only links to it and does not store training history.
+For data-science training, use the separate [Data Science Sprint Coach](DATA_SCIENCE_SPRINT_COACH.md). The Job Search Coach only links to it and does not store training history.
 
 ## What this repository is not
 
@@ -154,7 +154,7 @@ This is the actual skill package.
 - `references/resources-and-connections.md`
   How resumes, folders, Gmail, Drive, and networking sources are handled.
 - `training/data-science-sprint/`
-  The separate child folder containing the leaf guide, question banks, sprint plan, and progress rules.
+  The separate sprint coach folder containing the leaf guide, question banks, sprint plan, and progress rules.
 - `references/daily-planning.md`
   How daily execution plans are built.
 - `references/privacy-and-permissions.md`
