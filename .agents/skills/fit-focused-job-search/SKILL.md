@@ -25,7 +25,7 @@ Create a job-search operating system that connects demonstrated market fit, curr
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For data-science training, read `references/data-science-training-sprint.md`. Keep it separate from this job-search workflow.
+- For data-science training, read `training/data-science-sprint/LEAF.md`. This child folder contains its guide, question banks, sprint plan, and progress rules.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
@@ -97,7 +97,7 @@ For each strong match, provide:
 
 ### 5. Link separate training work
 
-When a user asks for data-science training, link to `references/data-science-training-sprint.md`. Do not include training procedures, questions, state, or results in the parent coach.
+When a user asks for data-science training, link to `training/data-science-sprint/LEAF.md`. Do not include training procedures, questions, state, or results in the parent coach.
 
 ### 6. Create the execution plan
 

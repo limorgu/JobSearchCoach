@@ -25,7 +25,7 @@ The main value of this skill is the learning cycle:
 
 Networking can be part of the workflow, but it is not the center of the system.
 
-For data-science training, use the separate [Data Science Training Sprint leaf](.agents/skills/fit-focused-job-search/references/data-science-training-sprint.md). The job-search coach only links to it and does not store training history.
+For data-science training, use the separate [Data Science Training Sprint child](.agents/skills/fit-focused-job-search/training/data-science-sprint/). The job-search coach only links to it and does not store training history.
 
 ## What this repository is not
 
@@ -153,8 +153,8 @@ This is the actual skill package.
   How the coach evaluates role fit using evidence instead of titles alone.
 - `references/resources-and-connections.md`
   How resumes, folders, Gmail, Drive, and networking sources are handled.
-- `references/data-science-training-sprint.md`
-  The separate linked Data Science Sprint leaf.
+- `training/data-science-sprint/`
+  The separate child folder containing the leaf guide, question banks, sprint plan, and progress rules.
 - `references/daily-planning.md`
   How daily execution plans are built.
 - `references/privacy-and-permissions.md`

@@ -62,7 +62,7 @@ Use approved professional-network sources to recommend appropriate contacts and 
 
 The job-search pipeline links to the separate Data Science Training Sprint leaf without incorporating its procedures, questions, state, or results.
 
-See [the Data Science Training Sprint leaf](.agents/skills/fit-focused-job-search/references/data-science-training-sprint.md).
+See [the Data Science Training Sprint child](.agents/skills/fit-focused-job-search/training/data-science-sprint/).
 
 ## Suggested data model
 

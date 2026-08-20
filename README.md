@@ -11,7 +11,7 @@ It optimizes for fit quality, continuous learning, and sustainable execution rat
 The repository contains two connected but separate systems:
 
 - **Job Search Coach (parent)** — owns onboarding, evidence and fit, opportunity screening, resume selection, networking, execution planning, and outcome-based adaptation.
-- **Data Science Training Sprint (leaf)** — owns data-science training questions, session state, topic banks, and progress evidence. The parent links to it; it does not contain its training workflow.
+- **Data Science Training Sprint (child)** — lives in [`training/data-science-sprint/`](.agents/skills/fit-focused-job-search/training/data-science-sprint/) and owns data-science questions, session state, topic banks, and progress evidence.
 
 This separation prevents job-search decisions and training history from being mixed together.
 
@@ -183,14 +183,17 @@ See [E2E_EMAIL_TEST.md](E2E_EMAIL_TEST.md) for a narrow-scope Gmail sandbox work
 .agents/skills/fit-focused-job-search/
 ├── SKILL.md
 ├── agents/openai.yaml
-└── references/
+├── references/
     ├── onboarding.md
     ├── evidence-and-fit.md
     ├── resources-and-connections.md
-    ├── data-science-training-sprint.md
     ├── daily-planning.md
     ├── privacy-and-permissions.md
     └── testing.md
+└── training/
+    └── data-science-sprint/
+        ├── LEAF.md
+        └── question-bank/
 
 tests/
 ├── personas/
