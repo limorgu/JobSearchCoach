@@ -25,7 +25,7 @@ Create a job-search operating system that connects demonstrated market fit, curr
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For interview, coding, case, or domain practice, read `references/training.md`.
+- For interview, coding, case, domain, or technical-readiness practice, read `references/interview-training-leaf.md`. Keep practice state and question continuity inside that training leaf rather than inside job-discovery logic.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
