@@ -5,6 +5,7 @@ contacts/
 private/
 personal-data/
 private-practice/
+private-dashboards/
 *.doc
 *.docx
 *.pdf
