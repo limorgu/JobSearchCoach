@@ -38,6 +38,10 @@ The evening check-in captures only what changed:
 
 The next 7am plan learns from that check-in. It carries forward only important unfinished work and does not repeat completed work.
 
+### 9pm: private progress record
+
+The dedicated 9pm progress agent records the day's real applications, networking outcomes, completed work, constraints, dashboard results, and next-day context in local `private-progress/`. This folder is excluded from Git and is never part of the public coach interface.
+
 ## What this coach owns
 
 - evidence-based role fit and hard exclusions;
@@ -56,6 +60,6 @@ For the daily routine, it returns a short, practical plan rather than a long gen
 
 ## Boundaries
 
-This coach does not mass apply, invent qualifications, send outreach, or change calendars without explicit approval. It does not store interview-training questions or practice results.
+This coach does not mass apply, invent qualifications, send outreach, or change calendars without explicit approval. All individual progress and results belong only in `private-progress/`; the public repository contains the reusable pipeline, not a person's job-search record. It does not store interview-training questions or practice results.
 
 Read the full implementation in [the Job Search Coach skill](.agents/skills/fit-focused-job-search/SKILL.md) and its [routine reference](.agents/skills/fit-focused-job-search/references/daily-planning.md).

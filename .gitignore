@@ -4,8 +4,7 @@ applications/
 contacts/
 private/
 personal-data/
-private-practice/
-private-dashboards/
+private-progress/
 *.doc
 *.docx
 *.pdf

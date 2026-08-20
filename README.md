@@ -146,7 +146,7 @@ It should not contain:
 - real recording links or transcripts;
 - personal routine history or account-specific configuration.
 
-Users should connect their own private folders, email threads, and notes separately.
+Users should connect their own private folders, email threads, and notes separately. All personal outcomes, daily records, and dashboard results belong in local gitignored `private-progress/`, maintained by the 9pm progress agent.
 
 ## Example requests
 

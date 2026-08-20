@@ -107,6 +107,7 @@ If the user requested the standard daily routine, use two distinct touchpoints:
 
 - **7am planning**: review current priorities, constraints, and approved opportunity signals; provide the one top action plus a short, time-bounded plan.
 - **5pm check-in**: capture completion, outcomes, useful network activity, and new constraints; use only those signals to adapt the next 7am plan.
+- **9pm private progress agent**: write the day's actual outcomes, completed work, applications, networking activity, dashboard results, and next-day context to local gitignored `private-progress/`. Never publish or add this record to the repository.
 
 For any daily routine, include:
 

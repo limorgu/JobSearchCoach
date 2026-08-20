@@ -81,13 +81,14 @@ Before creating a schedule, show and obtain approval for:
 - whether delivery is a draft or automatic;
 - follow-up feedback format.
 
-For the standard 5pm check-in and 7am plan:
+For the standard 5pm check-in, 9pm private record, and 7am plan:
 
 1. the 5pm check-in verifies and ranks only strong new matches, then captures what was completed, missed, or changed;
 2. the 7am plan reads the latest check-in, review signals, and current commitments;
 3. the 7am plan gives one top priority and a short, time-bounded action list with definitions of done;
 4. urgent interviews, recruiter requests, referrals, and exceptional matches override routine work;
-5. the next 5pm check-in closes the loop for the following day.
+5. the 9pm progress agent writes the real daily results and next-day context into local gitignored `private-progress/`;
+6. the next 5pm check-in closes the loop for the following day.
 
 ## Friday science brief
 
