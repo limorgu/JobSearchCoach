@@ -1,5 +1,7 @@
 # JobSearchCoach
 
+> Start with [ENVIRONMENT.md](ENVIRONMENT.md) for the VS Code/Codex setup and the 7am, 5pm, and private 9pm routine.
+
 Two connected, stand-alone coaches: one runs the job-search routine; the other runs continuous data-science interview practice.
 
 ## Choose your coach

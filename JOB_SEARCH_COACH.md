@@ -1,5 +1,7 @@
 # Job Search Coach
 
+> Start with [ENVIRONMENT.md](ENVIRONMENT.md) for the VS Code/Codex setup and the 7am, 5pm, and private 9pm routine.
+
 This is a stand-alone job-search operating system. It helps you find high-fit opportunities, decide what to do next, prepare truthful application materials, and learn from real outcomes.
 
 It does **not** run interview practice. For that separate system, see [Data Science Sprint Coach](https://github.com/limorgu/DataScienceSprintCoach).

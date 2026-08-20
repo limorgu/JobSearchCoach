@@ -1,5 +1,7 @@
 # Start Here
 
+> Start with [ENVIRONMENT.md](ENVIRONMENT.md) for the VS Code/Codex setup and the 7am, 5pm, and private 9pm routine.
+
 This guide is for people who want to use JobSearchCoach quickly and safely.
 
 ## What this repository is
