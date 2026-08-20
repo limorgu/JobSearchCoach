@@ -24,6 +24,7 @@ It must not contain:
 - private Drive folder IDs or URLs;
 - private recording links or transcript links;
 - personal automation configuration.
+- real daily practice answers, scores, reflections, or interview-specific feedback.
 
 ## Public skill vs. private user setup
 
@@ -44,6 +45,14 @@ For example, it is appropriate to document folders like:
 - `meeting-notes/`
 
 It is not appropriate to publish the actual Drive path, link, folder ID, or account-specific setup for any real user.
+
+## Private practice records
+
+Question-bank structure, synthetic schemas, genericized covered questions, and future questions may be public. Detailed daily training records must stay private.
+
+Use the local `private-practice/` directory for the real session checkpoint, attempted answer, score, corrections, readiness signal, and next step. This directory is gitignored and must not be force-added or copied into a public issue, pull request, or documentation page.
+
+Git ignore prevents commits; it does not control other backup, sync, or sharing services. Use a private repository or private storage that only you control if those records need to leave the local machine.
 
 ## User-controlled resource ladder
 

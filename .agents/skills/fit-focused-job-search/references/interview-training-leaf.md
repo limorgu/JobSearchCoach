@@ -44,7 +44,7 @@ Do not restart numbering in a continued sequence.
 
 ## Session-state authority
 
-Before generating any question, read `../question-bank/session-state.yaml`, then read the active dataset entry in `../question-bank/schema-registry.md`.
+Before generating any question, read the user-approved private checkpoint when it is available; otherwise read `../question-bank/session-state.yaml`. Then read the active dataset entry in `../question-bank/schema-registry.md`.
 
 Use the `active_topic` in session state to read only that topic's `covered/` and `future/` folders under `../question-bank/<topic>/`. Keep each topic's attempted questions and planned questions separate; never treat a planned question as history.
 
@@ -202,4 +202,4 @@ Always persist:
 - still-weak patterns;
 - continuation instruction.
 
-Write this checkpoint back to `../question-bank/session-state.yaml` after every session. A next session must be reconstructable from the checkpoint alone.
+Write detailed, real-session checkpoints to the local gitignored `private-practice/` area after every session. Keep the tracked `question-bank/session-state.yaml` as a sanitized baseline only; update it only with genericized information that is safe to publish. A next private session must be reconstructable from its private checkpoint alone.

@@ -4,6 +4,7 @@ applications/
 contacts/
 private/
 personal-data/
+private-practice/
 *.doc
 *.docx
 *.pdf
@@ -27,4 +28,3 @@ venv/
 dist/
 build/
 *.zip
-
