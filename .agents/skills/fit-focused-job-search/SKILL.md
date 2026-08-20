@@ -1,6 +1,6 @@
 ---
 name: fit-focused-job-search
-description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable job-search execution, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Link data-science training requests to the separate sprint leaf. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Run a personalized, evidence-based job-search decision pipeline. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable execution, use approved progress sources, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Link data-science training requests to the separate sprint leaf; do not mix its training workflow or history into this parent skill. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search

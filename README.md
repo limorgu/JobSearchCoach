@@ -1,10 +1,19 @@
 # JobSearchCoach
 
-A human-centered AI coaching system for job search execution, market-fit learning, and sustainable daily routines.
+An evidence-based job-search operating system that adapts from real outcomes, constraints, and completed work.
 
-JobSearchCoach helps a job seeker connect demonstrated market fit, verified opportunities, curated resume versions, realistic daily planning, and outcome-based learning.
+JobSearchCoach is not a job board, an ATS, or an automatic application engine. It is a decision pipeline: turn demonstrated experience and explicit constraints into better role choices, truthful resume selection, focused next actions, and a plan that improves as outcomes arrive.
 
-It optimizes for relevant opportunities, continuous learning, and sustainable execution rather than application volume.
+It optimizes for fit quality, continuous learning, and sustainable execution rather than application volume.
+
+## Architecture
+
+The repository contains two connected but separate systems:
+
+- **Job Search Coach (parent)** — owns onboarding, evidence and fit, opportunity screening, resume selection, networking, execution planning, and outcome-based adaptation.
+- **Data Science Training Sprint (leaf)** — owns data-science training questions, session state, topic banks, and progress evidence. The parent links to it; it does not contain its training workflow.
+
+This separation prevents job-search decisions and training history from being mixed together.
 
 ## Why this exists
 
@@ -26,7 +35,7 @@ The center of the system is the continuous learning loop:
 
 1. observe what was completed or missed;
 2. detect changing constraints, outcomes, and priorities;
-4. update the next day accordingly.
+3. update the next day accordingly.
 
 ## Core workflow
 

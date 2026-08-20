@@ -1,4 +1,4 @@
 interface:
   display_name: "Fit-Focused Job Search"
-  short_description: "Build an evidence-based, sustainable job-search plan."
-  default_prompt: "Help me set up a fit-focused job search with role matching, resume selection, networking, and a realistic daily plan."
+  short_description: "Run an adaptive, evidence-based job-search pipeline."
+  default_prompt: "Help me set up an adaptive job-search pipeline with evidence-based role fit, truthful resume selection, networking, and a realistic daily plan."

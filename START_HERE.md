@@ -4,7 +4,7 @@ This guide is for people who want to use JobSearchCoach quickly and safely.
 
 ## What this repository is
 
-JobSearchCoach is a Codex skill package for running a more focused, evidence-based job search.
+JobSearchCoach is a Codex skill package for running an adaptive, evidence-based job-search pipeline.
 
 It helps a user:
 
@@ -24,6 +24,8 @@ The main value of this skill is the learning cycle:
 4. update the next day's priorities.
 
 Networking can be part of the workflow, but it is not the center of the system.
+
+For data-science training, use the separate [Data Science Training Sprint leaf](.agents/skills/fit-focused-job-search/references/data-science-training-sprint.md). The job-search coach only links to it and does not store training history.
 
 ## What this repository is not
 
