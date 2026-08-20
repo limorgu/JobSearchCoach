@@ -1,6 +1,6 @@
 # Training Question Bank
 
-This folder is owned by the interview-training leaf.
+This folder is owned by the data-science training sprint leaf.
 
 ## Topic folders
 
@@ -25,6 +25,7 @@ This tracked question bank is public-safe: retain only synthetic schemas, generi
 Record each real practice session in the local, gitignored `private-practice/` directory using `private-session-template.md`. Promote an item into a topic's `covered/` folder only after removing personal details and only when a genericized record is useful to the public skill.
 - `session-state.yaml` — durable continuation state.
 - `schema-registry.md` — dataset isolation rules and sanitized schemas.
+- `data-science-sprint-plan.md` — the next four weeks of planned topic work.
 
 ## Rules
 

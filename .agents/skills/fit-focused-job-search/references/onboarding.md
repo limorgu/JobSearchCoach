@@ -49,16 +49,7 @@ Ask for evidence rather than forcing conventional job categories.
 
 Do not request an entire drive when one folder is sufficient.
 
-### 5. Readiness
-
-- Which interview stages are hardest?
-- Which technical skills may be tested?
-- Which skills are understood but not yet fluent under pressure?
-- Does the user prefer written, voice, coding, case, or mixed practice?
-- Does the user want coaching during the attempt or feedback afterward?
-- What kinds of preparation helped most in prior interview cycles?
-
-### 6. Capacity and sustainable-work preferences
+### 5. Capacity and sustainable-work preferences
 
 - How many job-search hours are realistic each week?
 - When is the best concentration window?
@@ -70,7 +61,7 @@ Do not request an entire drive when one folder is sufficient.
 
 Do not ask for diagnoses or medical details. Allow the user to skip every wellbeing question.
 
-### 7. Delivery and permissions
+### 6. Delivery and permissions
 
 - Chat, email, or both?
 - Manual run or recurring schedule?
@@ -88,11 +79,10 @@ End with:
 2. domain advantages;
 3. hard exclusions;
 4. strongest evidence of fit;
-5. readiness priorities;
-6. available time;
-7. approved resources and actions;
-8. routine anchors and preferred cadence;
-9. whether Friday reading and daily progress monitoring are enabled;
-10. whether network recommendations are enabled and from which approved source.
+5. available time;
+6. approved resources and actions;
+7. routine anchors and preferred cadence;
+8. whether Friday reading and daily progress monitoring are enabled;
+9. whether network recommendations are enabled and from which approved source.
 
 Ask the user to approve or correct this summary. Keep unconfirmed assumptions in a separate **to confirm** row; do not mix them with approved constraints.

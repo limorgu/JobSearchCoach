@@ -40,7 +40,7 @@ Pass only if the parent job-search workflow remains primary.
 
 Ask: “Continue my SQL practice.”
 
-Pass only if the parent routes to the training leaf, which reads session state and the active schema first.
+Pass only if the parent routes to the data-science training sprint leaf, which reads session state and the active schema first.
 
 ## 7. Incomplete tracker repair
 

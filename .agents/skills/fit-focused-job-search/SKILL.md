@@ -1,11 +1,11 @@
 ---
 name: fit-focused-job-search
-description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, practice interview or technical skills, learn from recordings or review notes, create sustainable daily or weekly plans, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or maintain an ongoing daily routine that adapts to market fit, schedule, prior progress, and newly observed gaps. Use approved network sources for contact recommendations when that is helpful, but keep the main emphasis on continuous learning from completed work and practice. Also use to reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
+description: Build and operate a personalized, evidence-based job-search coaching system. Use when a job seeker wants to define suitable roles, learn from applications that produced interviews, screen current openings, select and lightly adapt truthful resume versions, plan sustainable job-search execution, configure recurring job-search reports using their own files, email, calendar, and approved connectors, or reassess a search that is too broad, overwhelming, or producing poor-fit recommendations. Route data-science interview readiness to the separate data-science training sprint leaf. Do not use for mass applying, fabricated qualifications, automatic outreach without approval, or medical advice.
 ---
 
 # Fit-Focused Job Search
 
-Create a job-search operating system that connects demonstrated market fit, current opportunities, readiness training, recording-informed learning, realistic execution, and the user's ongoing routine. Optimize for relevance, conversion, and sustainable repetition, not application volume.
+Create a job-search operating system that connects demonstrated market fit, current opportunities, realistic execution, and the user's ongoing routine. Optimize for relevance, conversion, and sustainable repetition, not application volume.
 
 ## Operating principles
 
@@ -13,19 +13,19 @@ Create a job-search operating system that connects demonstrated market fit, curr
 2. Match responsibilities and problems, not titles alone.
 3. Separate required qualifications from preferred qualifications.
 4. Preserve every fact in the user's career history. Reframe truthfully; never invent.
-5. Distinguish a positioning gap, a fluency gap, and a genuine qualification gap.
+5. Distinguish an addressable positioning gap from a genuine qualification gap.
 6. Keep the plan sustainable. Optional wellbeing preferences are scheduling inputs, not health assessments.
 7. Learn from completed work. Use recordings, transcripts, review notes, and progress signals to change what happens next.
 8. Ask permission before connecting accounts, reading private sources, sending messages, creating events, or scheduling recurring work.
 9. Use relationships thoughtfully when relevant. Verify identities and relationship context before suggesting outreach.
-10. Focus on what the user cares about most: fit quality, reduced overwhelm, routine stability, interview readiness, privacy, or speed.
+10. Focus on what the user cares about most: fit quality, reduced overwhelm, routine stability, privacy, or speed.
 
 ## Route the request
 
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For interview, coding, case, domain, or technical-readiness practice, read `references/interview-training-leaf.md`. Keep practice state and question continuity inside that training leaf rather than inside job-discovery logic.
+- For data-science interview, coding, case, domain, or technical-readiness practice, read `references/data-science-training-sprint.md`. Keep all practice content, state, questions, and progress inside that separate leaf.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
@@ -44,8 +44,6 @@ Ask only the next small group of questions needed. Do not deliver a long intake 
 - hard qualification exclusions;
 - available resume or application sources;
 - available networking sources such as LinkedIn profile or approved connection exports;
-- available practice-review sources such as recordings, transcripts, or coaching notes;
-- interview and technical-readiness needs;
 - realistic time and optional sustainable-work preferences.
 - whether the user wants connector-assisted monitoring, daily check-ins, or weekly science reading.
 
@@ -60,7 +58,6 @@ Create a compact map of:
 - preferred directions;
 - hard exclusions;
 - uncertain areas requiring verification;
-- current readiness gaps.
 - routine constraints and motivators that should shape daily execution.
 
 Never convert a successful interview into a claim that the user meets every qualification for related jobs.
@@ -79,7 +76,6 @@ When the user wants continuity across days:
 
 - prefer a curated submissions folder, a curated resume folder, or approved Gmail threads over broad account access;
 - accept a daily self-reply email or short end-of-day status note as valid progress input;
-- treat recordings, transcripts, and practice-review notes as high-value evidence for next-day reprioritization;
 - treat Drive and Gmail as evidence sources, not as implicit permission to act.
 
 ### 4. Evaluate opportunities
@@ -97,44 +93,28 @@ For each strong match, provide:
 - three to five small, truthful adaptations;
 - one appropriate networking route;
 - one appropriate contact path from approved networking sources when available;
-- the most relevant readiness exercise, if any.
 - whether this role should change tomorrow's plan or keep the current routine.
 
-### 5. Train for conversion
+### 5. Route readiness work
 
-Turn repeated requirements and upcoming interview stages into a readiness map. Practice directly in chat. Present one exercise, wait for the response, give focused feedback, and allow another attempt. Do not replace practice with a long resource list.
+When an imminent interview or repeated role requirement reveals a data-science readiness need, route it to `references/data-science-training-sprint.md`. Pass only the role family, interview surface, readiness need, available time, and approved schema. Do not conduct practice, store question state, or interpret training evidence in the parent.
 
-When several practice paths are plausible, choose the next one by urgency and conversion value:
-
-1. imminent interview requirement;
-2. repeated gap across strong roles;
-3. skill the user already partly knows but cannot yet perform fluently;
-4. longer-horizon exploration or study.
-
-After practice, learn from what happened:
-
-- capture what the user completed or skipped;
-- capture what recordings, transcripts, or review notes revealed;
-- identify whether the next day's top priority changed;
-- prefer updating tomorrow over preserving yesterday's plan.
+Use only the leaf's compact return signal to decide whether a job-search plan needs a timing or priority adjustment.
 
 ### 6. Create the execution plan
 
-Prioritize interviews, recruiter requests, referrals, and exceptional matches. Schedule precise tasks with a definition of done. Include targeted training. Avoid placing every priority on every day.
+Prioritize interviews, recruiter requests, referrals, and exceptional matches. Schedule precise tasks with a definition of done. Avoid placing every priority on every day.
 
 If the user requested daily routines, include:
 
 - optional movement, meditation, or other user-approved anchors;
 - a single top-priority search action;
-- one targeted practice task;
 - one reason the plan changed, when new evidence caused reprioritization;
 - a lightweight end-of-day feedback step.
 
 ### 7. Learn from outcomes
 
-Record user-reported outcomes such as applied, interview invited, rejected, completed, skipped, or no longer interested. Recalibrate future matching and training without treating silence or rejection as a definitive judgment of ability.
-
-Use recordings, transcripts, coaching notes, and practice reviews as first-class learning inputs. The system should learn not only from what was scheduled or submitted, but from what the work itself revealed.
+Record user-reported outcomes such as applied, interview invited, rejected, completed, skipped, or no longer interested. Recalibrate future matching without treating silence or rejection as a definitive judgment of ability.
 
 If the user requested weekly learning support, produce a Friday science or research brief from approved sources or an approved reading list. Connect the reading explicitly to the user's target roles or current practice gaps.
 
@@ -159,6 +139,5 @@ A setup is complete only when the user has approved:
 - hard exclusions;
 - resource boundaries;
 - target role families;
-- a readiness map;
 - a realistic execution cadence;
 - whether any connected or recurring actions are authorized.

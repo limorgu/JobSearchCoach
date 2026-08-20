@@ -1,12 +1,10 @@
-# Interview Readiness Training Leaf
+# Data Science Training Sprint Leaf
 
 This is the dedicated practice module under the Fit-Focused Job Search parent.
 
-Use it for SQL, Python/pandas, statistics, experimentation, ML/model evaluation, case/design reasoning, technical explanations, and structured interview communication.
+Use it for the data-science interview sprint: SQL, Python/pandas, statistics, experimentation, LLM, ML/model evaluation, case/design reasoning, technical explanations, and structured interview communication.
 
 Keep job discovery, resumes, applications, and networking in the parent workflow.
-
-Read `training.md` only when the parent needs the broader readiness framework; this leaf owns live practice state and question continuity.
 
 ## Boundary and routing contract
 
@@ -47,6 +45,8 @@ Do not restart numbering in a continued sequence.
 Before generating any question, read the user-approved private checkpoint when it is available; otherwise read `../question-bank/session-state.yaml`. Then read the active dataset entry in `../question-bank/schema-registry.md`.
 
 Use the `active_topic` in session state to read only that topic's `covered/` and `future/` folders under `../question-bank/<topic>/`. Keep each topic's attempted questions and planned questions separate; never treat a planned question as history.
+
+For the current four-week sequence, read `../question-bank/data-science-sprint-plan.md` before selecting a new future question. Evidence, retries, and imminent interviews may reorder the plan without changing an already presented question's identifier.
 
 The state must contain:
 - last question reached;
