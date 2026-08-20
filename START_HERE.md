@@ -1,6 +1,6 @@
 # Start Here
 
-> Start with [ENVIRONMENT.md](ENVIRONMENT.md) for the VS Code/Codex setup and the 7am, 5pm, and private 9pm routine.
+> Start with [DAILY_ROUTINE.md](DAILY_ROUTINE.md) for the 7am plan, 5pm check-in, and private 9pm progress record.
 
 This guide is for people who want to use JobSearchCoach quickly and safely.
 

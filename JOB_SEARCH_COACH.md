@@ -1,6 +1,6 @@
 # Job Search Coach
 
-> Start with [ENVIRONMENT.md](ENVIRONMENT.md) for the VS Code/Codex setup and the 7am, 5pm, and private 9pm routine.
+> Start with [DAILY_ROUTINE.md](DAILY_ROUTINE.md) for the 7am plan, 5pm check-in, and private 9pm progress record.
 
 This is a stand-alone job-search operating system. It helps you find high-fit opportunities, decide what to do next, prepare truthful application materials, and learn from real outcomes.
 

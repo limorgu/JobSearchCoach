@@ -1,6 +1,6 @@
 # JobSearchCoach
 
-> Start with [ENVIRONMENT.md](ENVIRONMENT.md) for the VS Code/Codex setup and the 7am, 5pm, and private 9pm routine.
+> Start with [DAILY_ROUTINE.md](DAILY_ROUTINE.md) for the 7am plan, 5pm check-in, and private 9pm progress record.
 
 Two connected, stand-alone coaches: one runs the job-search routine; the other runs continuous data-science interview practice.
 
@@ -215,7 +215,7 @@ tests/
 ## Documentation
 
 - [Job Search Coach interface](JOB_SEARCH_COACH.md)
-- [Environment and daily-use guide](ENVIRONMENT.md)
+- [Daily job-search routine](DAILY_ROUTINE.md)
 - [Data Science Sprint Coach (separate repository)](https://github.com/limorgu/DataScienceSprintCoach)
 - [Skill instructions](.agents/skills/fit-focused-job-search/SKILL.md)
 - [Start here guide](START_HERE.md)
