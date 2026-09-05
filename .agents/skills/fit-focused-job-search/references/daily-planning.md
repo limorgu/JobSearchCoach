@@ -77,6 +77,32 @@ Carry forward only important unfinished work. Do not repeatedly reassign complet
 
 Treat recording-derived gap detection as a high-priority signal for tomorrow's plan.
 
+## Private continuity memory contract
+
+When a private continuity store is available, use it as the persistence layer for daily job search and job-search coaching. The public repository defines only the method; it must never contain the private store's location, user-specific history, document links, posting history, or personal state.
+
+Every meaningful run follows **READ → DECIDE → WRITE**:
+
+1. **READ** the compact current state plus the narrow recent history relevant to the run.
+2. **DECIDE** using that evidence and live sources. Do not repeat prior recommendations or preserve yesterday's plan mechanically.
+3. **WRITE** one concise outcome/history record and refresh the compact current state immediately after the run.
+
+For daily job discovery:
+
+- compare candidate jobs against prior surfaced posting IDs/URLs and semantic role/team matches;
+- suppress repeats unless there is a material change such as a new posting, materially different team, changed requirements, or new evidence that changes fit;
+- record surfaced jobs and known outcomes so future searches can deduplicate and learn from conversion.
+
+For job-search coaching:
+
+- read recent application, interview, recruiter, referral, and practice outcomes before setting the next priority;
+- update positioning, readiness priorities, and next actions when evidence changes;
+- distinguish current compact state from chronological evidence history.
+
+The continuity store does not replace source verification. Use current Gmail, Drive, Calendar, job postings, or other approved sources when the decision depends on mutable facts.
+
+A separate nightly dashboard is not required for persistence. If a nightly or weekly dashboard is produced, treat it as a user-facing summary of the already-updated continuity state, not as the source of truth.
+
 ## Recurring report design
 
 Before creating a schedule, show and obtain approval for:
