@@ -25,12 +25,20 @@ Create a job-search operating system that connects demonstrated market fit, curr
 - For first-time setup or major recalibration, read `references/onboarding.md` and complete onboarding progressively.
 - For role discovery, screening, or fit scoring, read `references/evidence-and-fit.md`.
 - For resumes, document sources, prior applications, or networking, read `references/resources-and-connections.md`.
-- For interview, coding, case, or domain practice, read `references/training.md`.
+- For interview, coding, case, or domain practice, read `references/training.md` and, when continuing an established training program, also read `references/current-training-pipeline.md`.
 - For daily plans, recurring reports, or completion feedback, read `references/daily-planning.md`.
 - Before requesting private data or taking connected actions, read `references/privacy-and-permissions.md`.
 - For skill validation or persona testing, read `references/testing.md`.
 
 Load only the references needed for the current request.
+
+## Keep durable training state fresh
+
+When the user materially changes the interview-training program, update `references/current-training-pipeline.md` so another agent can continue from the latest durable state instead of restarting. Durable changes include target interview bar, topic priorities, practice-source hierarchy, progression rules, repeated multi-session weaknesses, demonstrated mastery, and evidence thresholds.
+
+Do not write every practice answer or one-off mistake into the public skill. Store only durable, non-sensitive learning state. Never commit private transcript contents, personal correspondence, sensitive personal data, or private connector identifiers.
+
+Updating this GitHub skill is separate from changing any scheduled routine or automation. A request to refresh the skill does not authorize modifying schedules, emails, reminders, or recurring tasks.
 
 ## Core workflow
 
@@ -46,7 +54,7 @@ Ask only the next small group of questions needed. Do not deliver a long intake 
 - available networking sources such as LinkedIn profile or approved connection exports;
 - available practice-review sources such as recordings, transcripts, or coaching notes;
 - interview and technical-readiness needs;
-- realistic time and optional sustainable-work preferences.
+- realistic time and optional sustainable-work preferences;
 - whether the user wants connector-assisted monitoring, daily check-ins, or weekly science reading.
 
 Summarize the resulting profile and ask the user to correct it before relying on it.
@@ -60,7 +68,7 @@ Create a compact map of:
 - preferred directions;
 - hard exclusions;
 - uncertain areas requiring verification;
-- current readiness gaps.
+- current readiness gaps;
 - routine constraints and motivators that should shape daily execution.
 
 Never convert a successful interview into a claim that the user meets every qualification for related jobs.
@@ -97,12 +105,14 @@ For each strong match, provide:
 - three to five small, truthful adaptations;
 - one appropriate networking route;
 - one appropriate contact path from approved networking sources when available;
-- the most relevant readiness exercise, if any.
+- the most relevant readiness exercise, if any;
 - whether this role should change tomorrow's plan or keep the current routine.
 
 ### 5. Train for conversion
 
 Turn repeated requirements and upcoming interview stages into a readiness map. Practice directly in chat. Present one exercise, wait for the response, give focused feedback, and allow another attempt. Do not replace practice with a long resource list.
+
+When an established training pipeline exists, use `references/current-training-pipeline.md` as the continuity layer. Do not reset topic order or mastery because a new conversation started.
 
 When several practice paths are plausible, choose the next one by urgency and conversion value:
 
@@ -115,20 +125,15 @@ After practice, learn from what happened:
 
 - capture what the user completed or skipped;
 - capture what recordings, transcripts, or review notes revealed;
-- identify whether the next day's top priority changed;
-- prefer updating tomorrow over preserving yesterday's plan.
+- distinguish one-off events from repeated evidence;
+- update durable training state only when evidence is strong enough;
+- identify whether the next practice priority changed.
 
 ### 6. Create the execution plan
 
 Prioritize interviews, recruiter requests, referrals, and exceptional matches. Schedule precise tasks with a definition of done. Include targeted training. Avoid placing every priority on every day.
 
-If the user requested daily routines, include:
-
-- optional movement, meditation, or other user-approved anchors;
-- a single top-priority search action;
-- one targeted practice task;
-- one reason the plan changed, when new evidence caused reprioritization;
-- a lightweight end-of-day feedback step.
+If the user requested daily routines, include optional user-approved anchors, a single top-priority search action, one targeted practice task, one reason the plan changed when evidence caused reprioritization, and a lightweight end-of-day feedback step.
 
 ### 7. Learn from outcomes
 
